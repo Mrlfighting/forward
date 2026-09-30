@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "baseline_reused_after_exact_match": true,
+  "mesh": {
+    "horizontal_cell_count": 228,
+    "vertical_cell_count": 124,
+    "total_cell_count": 28272,
+    "x_bounds_m": [
+      -29525.007106150206,
+      29525.007106150195
+    ],
+    "z_bounds_m": [
+      -522000.0,
+      0.0
+    ],
+    "surface_cell_thickness_m": 5.0
+  },
+  "models": {
+    "background_resistivity_ohm_m": 100.0,
+    "anomaly_cell_counts": {
+      "left_deep_conductor": 2340,
+      "right_deep_resistor": 2340,
+      "left_shallow_conductor": 2,
+      "right_shallow_conductor": 2
+    },
+    "anomaly_regions": {
+      "left_deep_conductor": {
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            -8000.0,
+            -8000.0
+          ],
+          [
+            -2000.0,
+            -2000.0
+          ]
+        ],
+        "specified_size_m": [
+          6000.0,
+          6000.0
+        ],
+        "effective_bounds_m": [
+          [
+            -8000.0000000000055,
+            -8080.0
+          ],
+          [
+            -2000.0000000000055,
+            -1980.0
+          ]
+        ],
+        "effective_size_m": [
+          6000.0,
+          6100.0
+        ],
+        "cell_count": 2340
+      },
+      "right_deep_resistor": {
+        "resistivity_ohm_m": 1000.0,
+        "specified_bounds_m": [
+          [
+            2000.0,
+            -8000.0
+          ],
+          [
+            8000.0,
+            -2000.0
+          ]
+        ],
+        "specified_size_m": [
+          6000.0,
+          6000.0
+        ],
+        "effective_bounds_m": [
+          [
+            1999.9999999999945,
+            -8080.0
+          ],
+          [
+            7999.9999999999945,
+            -1980.0
+          ]
+        ],
+        "effective_size_m": [
+          6000.0,
+          6100.0
+        ],
+        "cell_count": 2340
+      },
+      "left_shallow_conductor": {
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            -5100.0,
+            -5.0
+          ],
+          [
+            -4900.0,
+            0.0
+          ]
+        ],
+        "specified_size_m": [
+          200.0,
+          5.0
+        ],
+        "effective_bounds_m": [
+          [
+            -5100.0000000000055,
+            -5.0
+          ],
+          [
+            -4900.0000000000055,
+            0.0
+          ]
+        ],
+        "effective_size_m": [
+          200.0,
+          5.0
+        ],
+        "cell_count": 2
+      },
+      "right_shallow_conductor": {
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            4900.0,
+            -5.0
+          ],
+          [
+            5100.0,
+            0.0
+          ]
+        ],
+        "specified_size_m": [
+          200.0,
+          5.0
+        ],
+        "effective_bounds_m": [
+          [
+            4899.9999999999945,
+            -5.0
+          ],
+          [
+            5099.9999999999945,
+            0.0
+          ]
+        ],
+        "effective_size_m": [
+          200.0,
+          5.0
+        ],
+        "cell_count": 2
+      }
+    },
+    "different_cell_count": 4,
+    "shallow_body_bounds_m": {
+      "left": [
+        [
+          -5100.0,
+          -5.0
+        ],
+        [
+          -4900.0,
+          0.0
+        ]
+      ],
+      "right": [
+        [
+          4900.0,
+          -5.0
+        ],
+        [
+          5100.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "stations": {
+    "count": 41,
+    "x_bounds_m": [
+      -10000,
+      10000
+    ],
+    "spacing_m": 500
+  },
+  "frequencies": {
+    "count": 20,
+    "bounds_hz": [
+      0.001,
+      316.22776601683796
+    ]
+  },
+  "data_conventions": {
+    "te": "Zyx=Ey/Hx; Simulation2DMagneticField",
+    "tm": "Zxy=Ex/Hy; Simulation2DElectricField",
+    "dpred_order": "ascending frequency; all stations real, then all stations imaginary",
+    "display_impedance": "negative SimPEG impedance; raw impedance is also saved",
+    "apparent_resistivity": "|Z|^2/(mu_0*2*pi*f)",
+    "phase": "arg(-Z) modulo 180 degrees",
+    "noise": "none",
+    "injected_static_shift": "none; only shallow conductivity cells differ"
+  },
+  "response_differences": {
+    "TE": {
+      "median_absolute_log10_rho_ratio_all": 5.800263324440408e-08,
+      "median_absolute_phase_difference_all_deg": 2.6039070348815585e-06,
+      "shallow_body_stations": {
+        "-5000": {
+          "mean_log10_rho_ratio": -0.02272401467693615,
+          "std_log10_rho_ratio": 0.03644869182374452,
+          "geometric_mean_rho_ratio": 0.9490213555152679,
+          "median_absolute_phase_difference_deg": 0.29971977841756114,
+          "max_absolute_phase_difference_deg": 7.6287350831114225
+        },
+        "5000": {
+          "mean_log10_rho_ratio": -0.024070709845567223,
+          "std_log10_rho_ratio": 0.035802489027654545,
+          "geometric_mean_rho_ratio": 0.9460831118906492,
+          "median_absolute_phase_difference_deg": 0.48543318481824826,
+          "max_absolute_phase_difference_deg": 7.6287232927405455
+        }
+      }
+    },
+    "TM": {
+      "median_absolute_log10_rho_ratio_all": 0.00019350028387172082,
+      "median_absolute_phase_difference_all_deg": 0.0012813059235980973,
+      "shallow_body_stations": {
+        "-5000": {
+          "mean_log10_rho_ratio": -0.26181579856260295,
+          "std_log10_rho_ratio": 0.010109913342748867,
+          "geometric_mean_rho_ratio": 0.5472480231716201,
+          "median_absolute_phase_difference_deg": 0.10700161666910901,
+          "max_absolute_phase_difference_deg": 0.6322556730734732
+        },
+        "5000": {
+          "mean_log10_rho_ratio": -0.26123693463390163,
+          "std_log10_rho_ratio": 0.009829373401033601,
+          "geometric_mean_rho_ratio": 0.5479779273369783,
+          "median_absolute_phase_difference_deg": 0.1393196021145684,
+          "max_absolute_phase_difference_deg": 0.6319073990561606
+        }
+      }
+    }
+  }
+}

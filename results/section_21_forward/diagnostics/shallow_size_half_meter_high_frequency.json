@@ -1,0 +1,75 @@
+{
+  "mesh_cells": [
+    258,
+    171
+  ],
+  "frequencies_hz": [
+    316.22776601683796
+  ],
+  "stations_m": [
+    -5000.0,
+    5000.0
+  ],
+  "body_height_m": 4.0,
+  "body_cell_size_m": 0.5,
+  "footprints": {
+    "width_4_m": {
+      "left": {
+        "cell_count": 64,
+        "x_bounds_m": [
+          -5002.0,
+          -4998.0
+        ],
+        "z_bounds_m": [
+          -4.0,
+          0.0
+        ]
+      },
+      "right": {
+        "cell_count": 64,
+        "x_bounds_m": [
+          4998.0,
+          5002.0
+        ],
+        "z_bounds_m": [
+          -4.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "modes": {
+    "TE": {
+      "width_4_m": {
+        "apparent_resistivity_ratio": [
+          [
+            1.0141009560031375,
+            0.8696985493342277
+          ]
+        ],
+        "phase_difference_deg": [
+          [
+            0.40189898464677754,
+            -3.72321341982385
+          ]
+        ]
+      }
+    },
+    "TM": {
+      "width_4_m": {
+        "apparent_resistivity_ratio": [
+          [
+            7.293605151269451,
+            0.01971447658991723
+          ]
+        ],
+        "phase_difference_deg": [
+          [
+            -0.1968163848152642,
+            1.6687729385626824
+          ]
+        ]
+      }
+    }
+  }
+}
