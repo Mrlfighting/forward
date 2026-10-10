@@ -1,0 +1,36 @@
+{
+  "legacy_directory": "D:\\staticjiaozheng\\论文整理\\04_static_site_phase_interference_downweighted\\static_site_random_phase_interference_5deg_static_phase_downweighted",
+  "max_abs_observation_difference": 0.0,
+  "max_abs_standard_deviation_difference": 0.0,
+  "methods": {
+    "clean_full": {
+      "new_roi_log10_rmse": 0.19080354486038065,
+      "legacy_roi_log10_rmse": 0.19080534319378273,
+      "roi_rmse_difference": -1.7983334020810204e-06,
+      "model_log_conductivity_rmse": 3.709791704533176e-05,
+      "model_log_conductivity_max_abs_difference": 0.0001772966775313023
+    },
+    "static_full": {
+      "new_roi_log10_rmse": 0.36796809240311157,
+      "legacy_roi_log10_rmse": 0.3724969960624819,
+      "roi_rmse_difference": -0.004528903659370309,
+      "model_log_conductivity_rmse": 0.08511382953168792,
+      "model_log_conductivity_max_abs_difference": 0.9667075233083713
+    },
+    "phase_preserving": {
+      "new_roi_log10_rmse": 0.21134955359177454,
+      "legacy_roi_log10_rmse": 0.21134955417017723,
+      "roi_rmse_difference": -5.784026868571601e-10,
+      "model_log_conductivity_rmse": 3.3367722306617346e-08,
+      "model_log_conductivity_max_abs_difference": 1.5683087273288265e-07
+    },
+    "phase_plus_shape": {
+      "new_roi_log10_rmse": 0.19309819474241288,
+      "legacy_roi_log10_rmse": 0.19309819904766393,
+      "roi_rmse_difference": -4.3052510445562575e-09,
+      "model_log_conductivity_rmse": 9.69851583949081e-07,
+      "model_log_conductivity_max_abs_difference": 4.298267834990099e-06
+    }
+  },
+  "note": "目标区误差和恢复模型只作原图复现核对；各方法数据量不同，不能用总拟合值单独排序。"
+}

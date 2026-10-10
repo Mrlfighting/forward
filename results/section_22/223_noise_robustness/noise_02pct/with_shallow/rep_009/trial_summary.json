@@ -1,0 +1,44 @@
+{
+  "arm": "with_shallow",
+  "noise_fraction": 0.02,
+  "repetition": 9,
+  "metrics": {
+    "tp": 19,
+    "fp": 35,
+    "fn": 21,
+    "tn": 745,
+    "precision": 0.35185185185185186,
+    "recall": 0.475,
+    "f1": 0.40425531914893614,
+    "false_positive_rate": 0.04487179487179487,
+    "target_frequency_counts": [
+      8,
+      11
+    ],
+    "both_targets_detected_any_frequency": true,
+    "region_frequency_counts": [
+      10,
+      14
+    ],
+    "neighbor_false_candidates": 23,
+    "outside_region_candidates": 12,
+    "total_frequency_station_candidates": 54
+  },
+  "redrawn_sample_count": 0,
+  "realized_relative_mean": 4.443143215134878e-05,
+  "realized_relative_rms": 0.019595416253573247,
+  "source_forward_sha256": "404da7336324510d02a80ad52d7192da9eaf581363fba204d57aa99aaa13f4af",
+  "detection_config_sha256": "3886b7422d091a676f15c0687581d9bd787e8df90d65942457905b7902715c6c",
+  "random_seed_identity": [
+    20261008,
+    9,
+    0
+  ],
+  "repair_seed_identity": [
+    20261008,
+    9,
+    1,
+    991
+  ],
+  "phase_noise_deg": 0.0
+}

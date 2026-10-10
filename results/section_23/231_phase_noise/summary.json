@@ -1,0 +1,134 @@
+{
+  "source_forward_sha256": "404da7336324510d02a80ad52d7192da9eaf581363fba204d57aa99aaa13f4af",
+  "config_sha256": "6dbf2adf63c69d331d8537c6e6ddced9a457f7ee125d770669cb004c201c65f1",
+  "station_x_m": [
+    -10000.0,
+    -8000.0,
+    -5000.0,
+    -2000.0,
+    2000.0,
+    5000.0,
+    8000.0,
+    10000.0
+  ],
+  "static_station_x_m": [
+    -5000.0,
+    5000.0
+  ],
+  "noise_frequency_indices": [
+    0,
+    11,
+    13,
+    15,
+    17,
+    18
+  ],
+  "noise_frequencies_hz": [
+    0.001,
+    1.5283067326587687,
+    5.796393953384973,
+    21.983926488622892,
+    83.378222347179,
+    162.37767391887243
+  ],
+  "phase_noise_sigma_deg": 5.0,
+  "actual_phase_rms_deg": 4.726968976533248,
+  "noise_count": 48,
+  "phase_std_noisy_deg": 5.032385120397683,
+  "rho_relative_error": 0.02,
+  "shape_weight": 0.7,
+  "data_counts": {
+    "full": 320,
+    "phase_preserving": 280,
+    "shape": 38,
+    "combined": 318
+  },
+  "inversion_mesh_shape": [
+    80,
+    64
+  ],
+  "active_cell_count": 3100,
+  "inversion_settings": {
+    "background_resistivity": 100.0,
+    "max_iter": 5,
+    "cg_maxiter": 15,
+    "initial_beta": 4.47e-07,
+    "cooling_factor": 2.0,
+    "cooling_rate": 2,
+    "active_depth_m": 12000.0,
+    "active_x_limit_m": 16000.0,
+    "depth_weight_start_m": 8000.0,
+    "depth_weight_max": 25.0,
+    "lateral_weight_start_m": 10000.0,
+    "lateral_weight_max": 50.0
+  },
+  "phase_convention": "saved display phase - 180 degrees = SimPEG raw phase",
+  "shape_constant_amplitude_invariance_max_abs": 7.105427357601002e-14,
+  "results": {
+    "clean_full": {
+      "roi_log10_rmse": 0.23995616829861874,
+      "background_log10_rmse": 0.23773158787127988,
+      "left_geometric_mean_rho": 14.110956472085688,
+      "right_geometric_mean_rho": 733.4061509469992,
+      "phi_d": 17.262016460777712,
+      "elapsed_seconds": 707.0898749000007,
+      "data_misfit": {
+        "n_data": 320,
+        "rms_standardized": 0.23225804924680296,
+        "sum_squared_standardized": 17.26201646077771
+      }
+    },
+    "static_full": {
+      "roi_log10_rmse": 0.28844067424309483,
+      "background_log10_rmse": 0.2599902927415442,
+      "left_geometric_mean_rho": 17.395243321497396,
+      "right_geometric_mean_rho": 750.9054501533071,
+      "phi_d": 569.2024249064317,
+      "elapsed_seconds": 757.7455783999994,
+      "data_misfit": {
+        "n_data": 320,
+        "rms_standardized": 1.3337007077424075,
+        "sum_squared_standardized": 569.2024249064317
+      }
+    },
+    "phase_preserving": {
+      "roi_log10_rmse": 0.21412340453472709,
+      "background_log10_rmse": 0.17227742747231137,
+      "left_geometric_mean_rho": 16.176768522360845,
+      "right_geometric_mean_rho": 596.4451849765844,
+      "phi_d": 67.51248090799459,
+      "elapsed_seconds": 700.0537422999987,
+      "data_misfit": {
+        "n_data": 280,
+        "rms_standardized": 0.4910356435563897,
+        "sum_squared_standardized": 67.51248090799459
+      }
+    },
+    "phase_plus_shape": {
+      "roi_log10_rmse": 0.21711285731188754,
+      "background_log10_rmse": 0.18145443428673966,
+      "left_geometric_mean_rho": 15.057097993646263,
+      "right_geometric_mean_rho": 586.3803307437298,
+      "phi_d": 70.60592399217087,
+      "elapsed_seconds": 766.2801194000021,
+      "phase_preserving_misfit": {
+        "n_data": 280,
+        "rms_standardized": 0.4901970362204755,
+        "sum_squared_standardized": 67.2820776094147
+      },
+      "shape_misfit": {
+        "n_data": 38,
+        "rms_standardized": 0.2957526697284038,
+        "sum_squared_standardized": 3.3238463827561753
+      }
+    }
+  },
+  "initial_model_metrics": {
+    "roi_log10_rmse": 0.4898979485566356,
+    "background_log10_rmse": 2.220446049250313e-16,
+    "left_geometric_mean_rho": 99.99999999999996,
+    "right_geometric_mean_rho": 99.99999999999996
+  },
+  "clean_reference_better_than_initial": true,
+  "status": "validated"
+}

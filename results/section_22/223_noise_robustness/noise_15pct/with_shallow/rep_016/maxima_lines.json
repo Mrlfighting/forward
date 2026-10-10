@@ -1,0 +1,4766 @@
+[
+  {
+    "frequency_hz": 0.001,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 74,
+            "x_m": -7103.71819960861,
+            "coefficient": 9.088102302605336
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 84,
+            "x_m": -6712.328767123287,
+            "coefficient": 4.263067416225852
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 87,
+            "x_m": -6594.91193737769,
+            "coefficient": 1.7939811200203504
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 1.1063709423731654
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.4623289105833473
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2588436854486567,
+          0.6973295360301361,
+          1.2487271629718601,
+          1.0920872047208927
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 201,
+            "x_m": -2133.0724070450087,
+            "coefficient": -9.570897727100087
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 191,
+            "x_m": -2524.4618395303323,
+            "coefficient": -3.864429427645468
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 140,
+            "x_m": -4520.547945205479,
+            "coefficient": -1.7527789019014195
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 136,
+            "x_m": -4677.103718199608,
+            "coefficient": -0.9558785622454784
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.3833898211814232
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.318015310786325,
+          0.874744773366356,
+          1.1406113960187931,
+          1.308398832442831
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 465,
+            "x_m": 8199.608610567517,
+            "coefficient": 3.446636626045954
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 469,
+            "x_m": 8356.164383561645,
+            "coefficient": 2.1996153859005196
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 1.3637592194895187
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 0.714820695578699
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 0.28114650507567923
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3462592911837867,
+          0.93193564052013,
+          0.6896623334252298,
+          0.6479379223240597
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.0019474830399087571,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 74,
+            "x_m": -7103.71819960861,
+            "coefficient": 9.886276339612282
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 87,
+            "x_m": -6594.91193737769,
+            "coefficient": 4.755440197142317
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 94,
+            "x_m": -6320.939334637964,
+            "coefficient": 2.3305492979816713
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 95,
+            "x_m": -6281.800391389432,
+            "coefficient": 1.258238526958536
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 96,
+            "x_m": -6242.6614481409,
+            "coefficient": 0.5016132219333865
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3267581614220183,
+          0.8892645875319364,
+          1.0289088628641556,
+          1.0558483397089509
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 200,
+            "x_m": -2172.2113502935417,
+            "coefficient": -9.841618450695506
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 203,
+            "x_m": -2054.7945205479446,
+            "coefficient": -4.686906210576445
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 204,
+            "x_m": -2015.6555772994125,
+            "coefficient": -2.145417653939096
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 136,
+            "x_m": -4677.103718199608,
+            "coefficient": -0.8433123532862974
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.3339657257448028
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3363670386554158,
+          1.3471195351287784,
+          1.12737739721713,
+          1.0702596603526906
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 3.634997726152908
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 481,
+            "x_m": 8825.831702544034,
+            "coefficient": 2.2066813779425094
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 486,
+            "x_m": 9021.526418786696,
+            "coefficient": 1.0199864138713755
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 415,
+            "x_m": 6242.6614481409015,
+            "coefficient": 0.4265156986554573
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 415,
+            "x_m": 6242.6614481409015,
+            "coefficient": 0.16613528825829635
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.360240299403412,
+          1.2578791872096977,
+          1.113328398599233,
+          0.7200761273235678
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.00379269019073225,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 74,
+            "x_m": -7103.71819960861,
+            "coefficient": 9.127464815145597
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 97,
+            "x_m": -6203.522504892368,
+            "coefficient": 3.8630126447275925
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 54,
+            "x_m": -7886.497064579256,
+            "coefficient": 1.8398052513319614
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.8306618020179488
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.3339330852016965
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3147021747524383,
+          1.1472199422180576,
+          1.070173338972317,
+          1.2404878023976638
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 191,
+            "x_m": -2524.4618395303323,
+            "coefficient": -10.517011930796276
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 189,
+            "x_m": -2602.7397260273965,
+            "coefficient": -5.256732831374071
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 190,
+            "x_m": -2563.6007827788644,
+            "coefficient": -2.6540036593411536
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 188,
+            "x_m": -2641.8786692759286,
+            "coefficient": -1.074927945446223
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.41719579585130767
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.365443431568523,
+          1.3039304035542363,
+          0.9859960532225797,
+          1.0004865494235629
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 394,
+            "x_m": 5420.743639921724,
+            "coefficient": -0.24831539712962145
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 398,
+            "x_m": 5577.299412915852,
+            "coefficient": -1.1350814595521193
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 289,
+            "x_m": 1311.154598825833,
+            "coefficient": -1.089034627374257
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.9971642441353836
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.41719579585130767
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2571065325878896,
+          0.12714676992126236,
+          0.05974600950485062,
+          -2.1925502111450323
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 3.0187600204342586
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 464,
+            "x_m": 8160.469667318983,
+            "coefficient": 1.8165202208814493
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 464,
+            "x_m": 8160.469667318983,
+            "coefficient": 1.1804036706565977
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 0.6713501542245219
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 0.2695286477530352
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3166268023547039,
+          0.8141429819251496,
+          0.6218971132465865,
+          0.7327786473899756
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.007386199822079358,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 70,
+            "x_m": -7260.273972602739,
+            "coefficient": 9.178952464884059
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 72,
+            "x_m": -7181.996086105675,
+            "coefficient": 4.238543744312072
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 74,
+            "x_m": -7103.71819960861,
+            "coefficient": 1.6008404939222198
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 1.1922417779528196
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.5107580769888077
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2229648148835202,
+          0.4251527328648375,
+          1.4047391102588165,
+          1.1147608408347212
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 187,
+            "x_m": -2681.0176125244616,
+            "coefficient": -9.247408990021057
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 170,
+            "x_m": -3346.37964774951,
+            "coefficient": -4.12260127880833
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 165,
+            "x_m": -3542.074363992172,
+            "coefficient": -2.253491395205097
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -1.3455344444111796
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.5859278597882297
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.19938436890608,
+          0.7439826181547363,
+          0.8713929951526963,
+          1.1654942604965728
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 459,
+            "x_m": 7964.774951076321,
+            "coefficient": 3.1607867634453024
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 450,
+            "x_m": 7612.52446183953,
+            "coefficient": 1.6985096577018355
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 370,
+            "x_m": 4481.4090019569485,
+            "coefficient": 1.3859533960723556
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 374,
+            "x_m": 4637.964774951077,
+            "coefficient": 0.6752852471339873
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 147,
+            "x_m": -4246.575342465753,
+            "coefficient": 0.3111994018810561
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.1176577519967603,
+          1.0373098017687912,
+          0.2933906750096594,
+          0.8960142884244534
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.01438449888287663,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 68,
+            "x_m": -7338.551859099804,
+            "coefficient": 8.619661794923914
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 71,
+            "x_m": -7221.135029354207,
+            "coefficient": 4.245047289867625
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 73,
+            "x_m": -7142.857142857143,
+            "coefficient": 2.3390425190939648
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 71,
+            "x_m": -7221.135029354207,
+            "coefficient": 1.1946557325374516
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 70,
+            "x_m": -7260.273972602739,
+            "coefficient": 0.4676808720660479
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.35299860290875,
+          0.9693231548092855,
+          0.8598625382782221,
+          1.0218506386639492
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 207,
+            "x_m": -1898.2387475538153,
+            "coefficient": -8.945042149096707
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 195,
+            "x_m": -2367.906066536203,
+            "coefficient": -3.7436975218379547
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 188,
+            "x_m": -2641.8786692759286,
+            "coefficient": -1.7388549868094836
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 288,
+            "x_m": 1272.015655577301,
+            "coefficient": -0.9772399537572247
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 287,
+            "x_m": 1232.876712328769,
+            "coefficient": -0.40684118069328584
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2642471313762647,
+          0.8313528694846537,
+          1.1063262517614072,
+          1.25662440555608
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 3.98789431093262
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 2.3985295330449405
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 375,
+            "x_m": 4677.103718199609,
+            "coefficient": 1.2509408805878368
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 1.0398153562834491
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.4452922318434959
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.22350301742291,
+          0.2666862427969885,
+          0.9391365941139201,
+          0.7334769717309835
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.028013567611988685,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 63,
+            "x_m": -7534.246575342466,
+            "coefficient": 7.714246777735098
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 63,
+            "x_m": -7534.246575342466,
+            "coefficient": 3.8215980437856603
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 67,
+            "x_m": -7377.690802348337,
+            "coefficient": 2.0447001446349984
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 1.3147014249859867
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.5488056989740214
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.260367825628899,
+          0.6371540936514997,
+          0.9022867560411238,
+          1.0133492548989045
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 212,
+            "x_m": -1702.544031311154,
+            "coefficient": -8.477343103999887
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 209,
+            "x_m": -1819.9608610567511,
+            "coefficient": -3.784441551799256
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 200,
+            "x_m": -2172.2113502935417,
+            "coefficient": -1.8364702783735756
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -1.2182600016617664
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.5185892500540544
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2321578611216983,
+          0.5921134807258694,
+          1.0431448782036188,
+          1.1635317528164948
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 466,
+            "x_m": 8238.747553816047,
+            "coefficient": 2.896290381613525
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 490,
+            "x_m": 9178.082191780824,
+            "coefficient": 1.5169336259047006
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 375,
+            "x_m": 4677.103718199609,
+            "coefficient": 1.5105682700292808
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 1.1667658933609868
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.493910538535064
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2401934625852176,
+          0.3725762686155449,
+          0.006066573169803869,
+          0.9330482928357495
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.0545559478116852,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 68,
+            "x_m": -7338.551859099804,
+            "coefficient": 6.778822782874653
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 55,
+            "x_m": -7847.358121330724,
+            "coefficient": 2.9611037534856743
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 55,
+            "x_m": -7847.358121330724,
+            "coefficient": 1.2469069489276794
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.8145356940351532
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.33971170290769703
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.261667001711574,
+          0.6143039812650734,
+          1.2477812343611305,
+          1.1948997135676245
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 212,
+            "x_m": -1702.544031311154,
+            "coefficient": -7.8566591512095005
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 194,
+            "x_m": -2407.045009784735,
+            "coefficient": -3.4012579736071498
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 191,
+            "x_m": -2524.4618395303323,
+            "coefficient": -1.754623973853402
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 236,
+            "x_m": -763.2093933463784,
+            "coefficient": -0.9207181170151826
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 236,
+            "x_m": -763.2093933463784,
+            "coefficient": -0.36717399447273985
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3262956529775742,
+          0.9303304457986241,
+          0.9549065479084321,
+          1.2078475391087595
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 382,
+            "x_m": 4951.076320939335,
+            "coefficient": 0.41993045979046434
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 423,
+            "x_m": 6555.772994129158,
+            "coefficient": 0.5442476311325304
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 423,
+            "x_m": 6555.772994129158,
+            "coefficient": 0.7728979896822895
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 426,
+            "x_m": 6673.189823874756,
+            "coefficient": 0.4421813272495417
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.4658813632150055
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          -0.0753245157808657,
+          0.8056399104947543,
+          -0.5060147907551716,
+          -0.3741127847028892
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4755.381604696675,
+        "mapped_station_index": 30,
+        "mapping_distance_m": 244.6183953033251
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 475,
+            "x_m": 8590.998043052838,
+            "coefficient": 1.9597378363878581
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 488,
+            "x_m": 9099.80430528376,
+            "coefficient": 1.7366464719408168
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 494,
+            "x_m": 9334.637964774953,
+            "coefficient": 0.9881518259277503
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 426,
+            "x_m": 6673.189823874756,
+            "coefficient": 0.4421813272495417
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 428,
+            "x_m": 6751.46771037182,
+            "coefficient": 0.17889991660213203
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3054853884307156,
+          1.160094620398519,
+          0.8134994666009923,
+          0.17435657556163017
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.10624678308940409,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 77,
+            "x_m": -6986.301369863013,
+            "coefficient": 5.5574389386483825
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 75,
+            "x_m": -7064.579256360078,
+            "coefficient": 2.82116778224008
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 76,
+            "x_m": -7025.440313111546,
+            "coefficient": 1.4190762315102026
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.8240081794077295
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.3358132874055884
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2949993424729696,
+          0.7842215284588707,
+          0.9913403775574903,
+          0.9781277226602046
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 197,
+            "x_m": -2289.628180039138,
+            "coefficient": -6.757161115216535
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 190,
+            "x_m": -2563.6007827788644,
+            "coefficient": -3.0118738731087435
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 199,
+            "x_m": -2211.350293542074,
+            "coefficient": -1.5132151163181184
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -1.009793110692952
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.43318473276312985
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2210054373936192,
+          0.5835573536696093,
+          0.9930442627545245,
+          1.1657558984279306
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.7018285745003318
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 397,
+            "x_m": 5538.16046966732,
+            "coefficient": -1.155104954182754
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 247,
+            "x_m": -332.68101761252365,
+            "coefficient": -1.1323514894114108
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 248,
+            "x_m": -293.54207436399156,
+            "coefficient": -0.6427558778758149
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.43318473276312985
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.5692885010297739,
+          0.8169790464017801,
+          0.028702092754797945,
+          -0.7188333500983682
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -4755.381604696673,
+        "mapped_station_index": 10,
+        "mapping_distance_m": 244.6183953033269
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 3.511947479356808
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 2.0250486885995094
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 461,
+            "x_m": 8043.052837573388,
+            "coefficient": 0.9569817933803273
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.4806050076925027
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.2091284460947204
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2004623670790395,
+          0.9936397968443472,
+          1.081393212633264,
+          0.794314674365293
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.20691380811147903,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 68,
+            "x_m": -7338.551859099804,
+            "coefficient": 4.950411009634764
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 74,
+            "x_m": -7103.71819960861,
+            "coefficient": 2.4310891312614613
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 77,
+            "x_m": -6986.301369863013,
+            "coefficient": 1.4206663953706316
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.6550437332268315
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.26724741006912467
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2934152630481437,
+          1.1169046820756734,
+          0.7750349711106033,
+          1.0259455224264307
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 210,
+            "x_m": -1780.8219178082181,
+            "coefficient": -6.305424892303754
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 199,
+            "x_m": -2211.350293542074,
+            "coefficient": -2.901128196714043
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 188,
+            "x_m": -2641.8786692759286,
+            "coefficient": -1.5749566332166265
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 186,
+            "x_m": -2720.1565557729937,
+            "coefficient": -0.911603291702383
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 185,
+            "x_m": -2759.2954990215258,
+            "coefficient": -0.36754289170598753
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3104935139028153,
+          0.7888340650852623,
+          0.8813019433504476,
+          1.1199795425407661
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 3.7217163759824397
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 471,
+            "x_m": 8434.44227005871,
+            "coefficient": 2.7274177464527707
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 472,
+            "x_m": 8473.581213307243,
+            "coefficient": 1.4814094460740082
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 477,
+            "x_m": 8669.275929549905,
+            "coefficient": 0.5936178908409809
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 478,
+            "x_m": 8708.414872798436,
+            "coefficient": 0.21891380757798506
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.4391716208192062,
+          1.3193639629535188,
+          0.8805652468051764,
+          0.44843242652930354
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.4029611320200404,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 51,
+            "x_m": -8003.913894324853,
+            "coefficient": 3.166524558743055
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 29,
+            "x_m": -8864.970645792564,
+            "coefficient": 1.8799537830998079
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 31,
+            "x_m": -8786.6927592955,
+            "coefficient": 1.1004765610390652
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.6953674128769085
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.28827756403597365
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2703168997391145,
+          0.6622810532165372,
+          0.7725687773225226,
+          0.7522030735834375
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 198,
+            "x_m": -2250.489236790606,
+            "coefficient": -4.98404256553317
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 199,
+            "x_m": -2211.350293542074,
+            "coefficient": -2.5475498865204727
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 194,
+            "x_m": -2407.045009784735,
+            "coefficient": -1.1428909948301287
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.7795235961276308
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.33900868914323956
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.201270442266198,
+          0.5520232116438705,
+          1.156422587123844,
+          0.9682059918062884
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 408,
+            "x_m": 5968.688845401175,
+            "coefficient": 1.1071679761357516
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.9461273662259285
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 482,
+            "x_m": 8864.970645792564,
+            "coefficient": 1.0085821020898824
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 480,
+            "x_m": 8786.6927592955,
+            "coefficient": 0.5071356373892028
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 479,
+            "x_m": 8747.55381604697,
+            "coefficient": 0.19795301152148187
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3572136431922126,
+          0.9918849651099985,
+          -0.09222221396234637,
+          0.2267678048386473
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 8747.55381604697,
+        "mapped_station_index": 37,
+        "mapping_distance_m": 247.5538160469696
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 474,
+            "x_m": 8551.859099804307,
+            "coefficient": 1.7170876302708624
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 485,
+            "x_m": 8982.387475538162,
+            "coefficient": 1.5874112339602982
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 482,
+            "x_m": 8864.970645792564,
+            "coefficient": 1.0085821020898824
+          }
+        ],
+        "accepted": false,
+        "rejection_reason": "no_same_sign_maximum",
+        "alpha_pairs": null,
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 0.7847599703514615,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 72,
+            "x_m": -7181.996086105675,
+            "coefficient": 2.8793350967169435
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 60,
+            "x_m": -7651.663405088062,
+            "coefficient": 1.811200531320719
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 119,
+            "x_m": -5342.465753424657,
+            "coefficient": 1.3535185130857421
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 1.014392655150472
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.4259947466344283
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2517086602321454,
+          0.4160984159117652,
+          0.4202316659934172,
+          0.6687894128688715
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 177,
+            "x_m": -3072.4070450097843,
+            "coefficient": -3.0788666262220223
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 151,
+            "x_m": -4090.019569471624,
+            "coefficient": -2.2402507461146626
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 139,
+            "x_m": -4559.686888454012,
+            "coefficient": -1.194571038458219
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.7912580230998943
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.33132736741831864
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2558908490918335,
+          0.5942725219931185,
+          0.9071675686779639,
+          0.45873915360472306
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 273,
+            "x_m": 684.9315068493161,
+            "coefficient": -3.80628972723626
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 268,
+            "x_m": 489.2367906066538,
+            "coefficient": -1.5795300728986896
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 208,
+            "x_m": -1859.0998043052832,
+            "coefficient": -1.1444759714260007
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 210,
+            "x_m": -1780.8219178082181,
+            "coefficient": -0.6310516592044751
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 211,
+            "x_m": -1741.682974559686,
+            "coefficient": -0.2505188653272931
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3328388623807546,
+          0.858857156271151,
+          0.4648082315734624,
+          1.2688899758578367
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 370,
+            "x_m": 4481.4090019569485,
+            "coefficient": 1.0345509257546104
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 366,
+            "x_m": 4324.853228962818,
+            "coefficient": 2.1402275875997865
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 368,
+            "x_m": 4403.131115459884,
+            "coefficient": 1.7319730871717758
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 367,
+            "x_m": 4363.992172211352,
+            "coefficient": 0.7556021665901707
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 365,
+            "x_m": 4285.714285714286,
+            "coefficient": 0.27708597634765547
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.4472931423239965,
+          1.196717768867999,
+          0.3053477056902874,
+          -1.0487595545533124
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4285.714285714286,
+        "mapped_station_index": 29,
+        "mapping_distance_m": 214.28571428571377
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 414,
+            "x_m": 6203.522504892369,
+            "coefficient": -0.2822754854139719
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 403,
+            "x_m": 5772.994129158515,
+            "coefficient": -0.9339873419022814
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 392,
+            "x_m": 5342.465753424658,
+            "coefficient": -1.1136202437330118
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.8239836371550384
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.34439874818225424
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.258535789495175,
+          0.43456974883804794,
+          -0.25378243960038077,
+          -1.7262991561026564
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 472,
+            "x_m": 8473.581213307243,
+            "coefficient": 1.8767704288207896
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 470,
+            "x_m": 8395.303326810179,
+            "coefficient": 1.5372058825960544
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 471,
+            "x_m": 8434.44227005871,
+            "coefficient": 0.9470554978188971
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 468,
+            "x_m": 8317.025440313115,
+            "coefficient": 0.4200278078719616
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 0.1575713044165494
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.4144800174218939,
+          1.17296412621767,
+          0.6987895266733112,
+          0.2879417845072886
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 1.5283067326587687,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 56,
+            "x_m": -7808.219178082192,
+            "coefficient": 2.1528882653114363
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 111,
+            "x_m": -5655.577299412916,
+            "coefficient": 1.279512190835227
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 115,
+            "x_m": -5499.021526418786,
+            "coefficient": 1.2274868425985364
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 119,
+            "x_m": -5342.465753424657,
+            "coefficient": 0.6344616126688744
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.2479439622821465
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3555187836796632,
+          0.9521027771058113,
+          0.05988633262877616,
+          0.7506795526790732
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 206,
+            "x_m": -1937.3776908023474,
+            "coefficient": -1.6968489818786805
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 278,
+            "x_m": 880.6262230919765,
+            "coefficient": -1.5496758438967695
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 199,
+            "x_m": -2211.350293542074,
+            "coefficient": -1.1841973010109172
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 198,
+            "x_m": -2250.489236790606,
+            "coefficient": -0.77984696383061
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 198,
+            "x_m": -2250.489236790606,
+            "coefficient": -0.3209373488860349
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2808993469877246,
+          0.6026465264914491,
+          0.38805699812028954,
+          0.1308917031105855
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 290,
+            "x_m": 1350.2935420743652,
+            "coefficient": -3.0402299916990074
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 278,
+            "x_m": 880.6262230919765,
+            "coefficient": -1.5496758438967695
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 332,
+            "x_m": 2994.129158512722,
+            "coefficient": -1.0650713026631131
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 300,
+            "x_m": 1741.6829745596879,
+            "coefficient": -0.5403152671302371
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 300,
+            "x_m": 1741.6829745596879,
+            "coefficient": -0.2308676903124196
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.226735163681337,
+          0.9790766644907454,
+          0.5410164519595644,
+          0.9722139980230505
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 369,
+            "x_m": 4442.270058708416,
+            "coefficient": 0.5539908656844406
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 366,
+            "x_m": 4324.853228962818,
+            "coefficient": 1.8187639759208192
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 368,
+            "x_m": 4403.131115459884,
+            "coefficient": 1.3543303550971426
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 373,
+            "x_m": 4598.825831702545,
+            "coefficient": 0.5591822335868092
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.20360424076697975
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.457550913068259,
+          1.2761892622439146,
+          0.42537864286226734,
+          -1.7150242400292453
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4716.242661448143,
+        "mapped_station_index": 29,
+        "mapping_distance_m": 216.24266144814283
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 406,
+            "x_m": 5890.410958904111,
+            "coefficient": -0.20853626920173096
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 401,
+            "x_m": 5694.716242661449,
+            "coefficient": -1.2884772707118037
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 395,
+            "x_m": 5459.882583170256,
+            "coefficient": -1.127274519208007
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 391,
+            "x_m": 5303.326810176126,
+            "coefficient": -0.5727990836309221
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.2242958229954417
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.352626430839273,
+          0.9767378005170207,
+          0.19282819746932084,
+          -2.627296859570263
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 467,
+            "x_m": 8277.88649706458,
+            "coefficient": 1.9455946699098319
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 470,
+            "x_m": 8395.303326810179,
+            "coefficient": 1.39355787103594
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 475,
+            "x_m": 8590.998043052838,
+            "coefficient": 0.8682021118771424
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 478,
+            "x_m": 8708.414872798436,
+            "coefficient": 0.4233673503971426
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 479,
+            "x_m": 8747.55381604697,
+            "coefficient": 0.16397582909019978
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3684268450648331,
+          1.0361209172560017,
+          0.6826700782449913,
+          0.48143826626976605
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 2.9763514416313193,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 34,
+            "x_m": -8669.275929549902,
+            "coefficient": 0.7684642872495753
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 112,
+            "x_m": -5616.438356164384,
+            "coefficient": 0.7859665299179033
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.567669620890919
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.4754155569261867
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.20355766159597558
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.223751589755127,
+          0.2558624241010317,
+          0.46941634001004345,
+          -0.03248966190207505
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -9256.360078277887,
+        "mapped_station_index": 1,
+        "mapping_distance_m": 243.6399217221133
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 140,
+            "x_m": -4520.547945205479,
+            "coefficient": -0.6482213653476259
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 142,
+            "x_m": -4442.270058708415,
+            "coefficient": -1.4826796245342864
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 138,
+            "x_m": -4598.825831702544,
+            "coefficient": -1.7585066222058086
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -1.1914377852465683
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.49427575549865826
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2693155702066166,
+          0.5616471493557041,
+          -0.2461438720741247,
+          -1.1936484181010076
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -4755.381604696673,
+        "mapped_station_index": 10,
+        "mapping_distance_m": 244.6183953033269
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 194,
+            "x_m": -2407.045009784735,
+            "coefficient": 0.3614772586070747
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 174,
+            "x_m": -3189.8238747553814,
+            "coefficient": 0.6937187009869559
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 170,
+            "x_m": -3346.37964774951,
+            "coefficient": 0.7315926638950344
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 172,
+            "x_m": -3268.1017612524456,
+            "coefficient": 0.42158617417233857
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 172,
+            "x_m": -3268.1017612524456,
+            "coefficient": 0.1693302667573318
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3159876856140114,
+          0.7952130535390617,
+          -0.0766898317241274,
+          -0.9404458900335134
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -3268.1017612524456,
+        "mapped_station_index": 13,
+        "mapping_distance_m": 231.8982387475544
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 288,
+            "x_m": 1272.015655577301,
+            "coefficient": -2.0059984850025234
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 298,
+            "x_m": 1663.4050880626237,
+            "coefficient": -1.5522580097017828
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 303,
+            "x_m": 1859.0998043052841,
+            "coefficient": -1.0046228187709891
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.5359707325244505
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.23234541160777675
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.205883067764045,
+          0.9064278220895143,
+          0.6277144265321495,
+          0.3699521403096317
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 354,
+            "x_m": 3855.1859099804315,
+            "coefficient": 0.4734508408981956
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 336,
+            "x_m": 3150.6849315068503,
+            "coefficient": 0.6741117644317206
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 334,
+            "x_m": 3072.407045009786,
+            "coefficient": 0.8383755761004639
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.7677383812975754
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.3145033161792446
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2875395448704041,
+          0.1269819142168264,
+          -0.3146088852910995,
+          -0.5097731667077748
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4755.381604696675,
+        "mapped_station_index": 30,
+        "mapping_distance_m": 244.6183953033251
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 401,
+            "x_m": 5694.716242661449,
+            "coefficient": -0.5009920987708104
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 398,
+            "x_m": 5577.299412915852,
+            "coefficient": -1.1941524906149412
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 393,
+            "x_m": 5381.604696673192,
+            "coefficient": -1.3410339628344576
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 391,
+            "x_m": 5303.326810176126,
+            "coefficient": -0.855502974354785
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.35100822269859233
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2852680431704,
+          0.6485009994930274,
+          -0.1673586978815521,
+          -1.25312732158129
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 471,
+            "x_m": 8434.44227005871,
+            "coefficient": 1.1114652305746147
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 493,
+            "x_m": 9295.499021526419,
+            "coefficient": 0.9556112048180895
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 495,
+            "x_m": 9373.776908023487,
+            "coefficient": 0.7492383743131387
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 493,
+            "x_m": 9295.499021526419,
+            "coefficient": 0.3321045770106364
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 492,
+            "x_m": 9256.360078277889,
+            "coefficient": 0.1244129702772738
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.4165007090857908,
+          1.1737871871220118,
+          0.35099897682520814,
+          0.21796714292143796
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 5.796393953384973,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 43,
+            "x_m": -8317.025440313111,
+            "coefficient": 1.376022919352247
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 51,
+            "x_m": -8003.913894324853,
+            "coefficient": 1.4867079236705272
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 57,
+            "x_m": -7769.080234833659,
+            "coefficient": 1.2647652817456148
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 58,
+            "x_m": -7729.941291585127,
+            "coefficient": 0.8554565631173676
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 57,
+            "x_m": -7769.080234833659,
+            "coefficient": 0.3544139764530255
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2712591036647989,
+          0.564103163830913,
+          0.2332515747376264,
+          -0.11161674550239542
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -7769.080234833659,
+        "mapped_station_index": 4,
+        "mapping_distance_m": 230.91976516634077
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 158,
+            "x_m": -3816.0469667318976,
+            "coefficient": -0.5965508357470757
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 154,
+            "x_m": -3972.602739726027,
+            "coefficient": -0.6496823836385455
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 162,
+            "x_m": -3659.4911937377683,
+            "coefficient": -0.5565344202921189
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 160,
+            "x_m": -3737.7690802348334,
+            "coefficient": -0.4929183486214205
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 160,
+            "x_m": -3737.7690802348334,
+            "coefficient": -0.21275827599855376
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2121334337420862,
+          0.17512223192614954,
+          0.22326366905731237,
+          -0.12308950251055033
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -3737.7690802348334,
+        "mapped_station_index": 13,
+        "mapping_distance_m": 237.76908023483338
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 228,
+            "x_m": -1076.320939334637,
+            "coefficient": 0.729392397225993
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 209,
+            "x_m": -1819.9608610567511,
+            "coefficient": 0.5394183815074431
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 208,
+            "x_m": -1859.0998043052832,
+            "coefficient": 0.4724494939552746
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 210,
+            "x_m": -1780.8219178082181,
+            "coefficient": 0.2932664892943138
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 211,
+            "x_m": -1741.682974559686,
+            "coefficient": 0.11932973450900199
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2972586502796648,
+          0.6879478818697388,
+          0.1912445746227005,
+          0.4352904774607712
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 304,
+            "x_m": 1898.2387475538162,
+            "coefficient": -0.3728594150490996
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 309,
+            "x_m": 2093.9334637964785,
+            "coefficient": -0.6643277024752008
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 304,
+            "x_m": 1898.2387475538162,
+            "coefficient": -0.4733121374400079
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 301,
+            "x_m": 1780.82191780822,
+            "coefficient": -0.31760162460853464
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.3836660551178158
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          -0.2726328358069655,
+          0.5755736262533221,
+          0.4891031575914942,
+          -0.8332633046921921
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 358,
+            "x_m": 4011.7416829745616,
+            "coefficient": 0.5707629920879942
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 364,
+            "x_m": 4246.575342465754,
+            "coefficient": 0.7448252197556131
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 425,
+            "x_m": 6634.050880626226,
+            "coefficient": 0.4566572780103828
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 427,
+            "x_m": 6712.32876712329,
+            "coefficient": 0.29660628189434096
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 428,
+            "x_m": 6751.46771037182,
+            "coefficient": 0.12259711446076278
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2746241302374377,
+          0.6225626732391775,
+          0.7057900967932946,
+          -0.38401012891612224
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 6751.46771037182,
+        "mapped_station_index": 34,
+        "mapping_distance_m": 248.53228962817957
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 453,
+            "x_m": 7729.941291585128,
+            "coefficient": -0.6625778638145343
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 459,
+            "x_m": 7964.774951076321,
+            "coefficient": -0.7054755424145895
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 476,
+            "x_m": 8630.136986301372,
+            "coefficient": -0.46217374629933233
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 478,
+            "x_m": 8708.414872798436,
+            "coefficient": -0.37938435335108833
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 479,
+            "x_m": 8747.55381604697,
+            "coefficient": -0.1627697982232061
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2208271462626914,
+          0.2847751300424119,
+          0.6101607579241716,
+          -0.09050606305140232
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 8747.55381604697,
+        "mapped_station_index": 37,
+        "mapping_distance_m": 247.5538160469696
+      }
+    ]
+  },
+  {
+    "frequency_hz": 11.288378916846883,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 12,
+            "x_m": -9530.332681017613,
+            "coefficient": 0.03944305551085507
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 17,
+            "x_m": -9334.63796477495,
+            "coefficient": 0.750356020440722
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 78,
+            "x_m": -6947.162426614481,
+            "coefficient": 0.8482023889275131
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.7608002663560237
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.31139029256357936
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2887937814632098,
+          0.15689079494613062,
+          -0.1768332745506453,
+          -4.249732050156817
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -5264.187866927593,
+        "mapped_station_index": 9,
+        "mapping_distance_m": 235.81213307240705
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 57,
+            "x_m": -7769.080234833659,
+            "coefficient": -0.31859933967608506
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 96,
+            "x_m": -6242.6614481409,
+            "coefficient": -0.1374588240417239
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 139,
+            "x_m": -4559.686888454012,
+            "coefficient": -0.8873958159590972
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.6057994483153996
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 236,
+            "x_m": -763.2093933463784,
+            "coefficient": -0.27291860914946026
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.1503694951585473,
+          0.550737486604536,
+          -2.6905782286227193,
+          1.2127437544658577
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -763.2093933463784,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 236.79060665362158
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 141,
+            "x_m": -4481.409001956947,
+            "coefficient": -0.7655438130304161
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 149,
+            "x_m": -4168.297455968688,
+            "coefficient": -1.3687520614230442
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 139,
+            "x_m": -4559.686888454012,
+            "coefficient": -0.8873958159590972
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 237,
+            "x_m": -724.0704500978463,
+            "coefficient": -0.6489938272765854
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 236,
+            "x_m": -763.2093933463784,
+            "coefficient": -0.27291860914946026
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2497339873456301,
+          0.45137299441745304,
+          0.6252114814720057,
+          -0.8383042850579988
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -763.2093933463784,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 236.79060665362158
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 201,
+            "x_m": -2133.0724070450087,
+            "coefficient": 1.3995862651576267
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 199,
+            "x_m": -2211.350293542074,
+            "coefficient": 1.2589793136805807
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 284,
+            "x_m": 1115.4598825831708,
+            "coefficient": 1.0365009943690795
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": 0.09280832042346455
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 249,
+            "x_m": -254.40313111545947,
+            "coefficient": 0.06261152174219899
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.5678259855728665,
+          3.481323539064472,
+          0.28053307779466397,
+          0.15274583357472746
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 296,
+            "x_m": 1585.1272015655595,
+            "coefficient": 0.7802941851312555
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 284,
+            "x_m": 1115.4598825831708,
+            "coefficient": 1.1961616130721577
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 284,
+            "x_m": 1115.4598825831708,
+            "coefficient": 1.0365009943690795
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 286,
+            "x_m": 1193.737769080235,
+            "coefficient": 0.5091556197378264
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 287,
+            "x_m": 1232.876712328769,
+            "coefficient": 0.19559563775245473
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3802324778996287,
+          1.0255429223667574,
+          0.2066908243420274,
+          -0.616322270866125
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 1232.876712328769,
+        "mapped_station_index": 22,
+        "mapping_distance_m": 232.87671232876892
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 347,
+            "x_m": 3581.213307240705,
+            "coefficient": 0.915576150601458
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 364,
+            "x_m": 4246.575342465754,
+            "coefficient": 1.2918249716467205
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 374,
+            "x_m": 4637.964774951077,
+            "coefficient": 1.1769205205835036
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.8937571898316171
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.37785324068865306
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.24205694635219,
+          0.3970620483493298,
+          0.13439371760153093,
+          -0.49665882521876265
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4755.381604696675,
+        "mapped_station_index": 30,
+        "mapping_distance_m": 244.6183953033251
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 412,
+            "x_m": 6125.244618395305,
+            "coefficient": -1.1562392198766094
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 401,
+            "x_m": 5694.716242661449,
+            "coefficient": -1.6332110283885208
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 394,
+            "x_m": 5420.743639921724,
+            "coefficient": -1.330354314286155
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 391,
+            "x_m": 5303.326810176126,
+            "coefficient": -0.8575987384008441
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.3547933985041136
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2733236172215034,
+          0.6334358423950254,
+          0.29590068364224914,
+          -0.49827129980712576
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      }
+    ]
+  },
+  {
+    "frequency_hz": 21.983926488622892,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 44,
+            "x_m": -8277.886497064579,
+            "coefficient": -0.5355171900903918
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 51,
+            "x_m": -8003.913894324853,
+            "coefficient": -1.1809554684539438
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 59,
+            "x_m": -7690.802348336594,
+            "coefficient": -0.7417118649854584
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 59,
+            "x_m": -7690.802348336594,
+            "coefficient": -0.3250499973824866
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 32,
+            "x_m": -8747.553816046966,
+            "coefficient": -0.13188219487751046
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3014118398550707,
+          1.1901972051080443,
+          0.6710238117658437,
+          -1.1409497732102112
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -8747.553816046966,
+        "mapped_station_index": 3,
+        "mapping_distance_m": 247.55381604696595
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 98,
+            "x_m": -6164.3835616438355,
+            "coefficient": 0.7752499493583546
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 111,
+            "x_m": -5655.577299412916,
+            "coefficient": 0.6256178264215221
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 84,
+            "x_m": -6712.328767123287,
+            "coefficient": 1.1101708613426253
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 84,
+            "x_m": -6712.328767123287,
+            "coefficient": 0.6626676868656852
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.45479520842443066
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.5430685176044893,
+          0.7444242550308036,
+          -0.827428205637726,
+          0.30937990505839197
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -5264.187866927593,
+        "mapped_station_index": 9,
+        "mapping_distance_m": 235.81213307240705
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 156,
+            "x_m": -3894.3248532289626,
+            "coefficient": -0.9349163117625181
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 149,
+            "x_m": -4168.297455968688,
+            "coefficient": -1.1433090047897319
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 139,
+            "x_m": -4559.686888454012,
+            "coefficient": -0.9891256323193961
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.71310179260288
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.3017966232032485
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2405313670010447,
+          0.4720457437167099,
+          0.20898969730825406,
+          -0.2903062425312528
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -4755.381604696673,
+        "mapped_station_index": 10,
+        "mapping_distance_m": 244.6183953033269
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 209,
+            "x_m": -1819.9608610567511,
+            "coefficient": 0.18639543461434627
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 201,
+            "x_m": -2133.0724070450087,
+            "coefficient": 0.610525115835478
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 204,
+            "x_m": -2015.6555772994125,
+            "coefficient": 0.5875204668527783
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 208,
+            "x_m": -1859.0998043052832,
+            "coefficient": 0.27762832966747164
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 210,
+            "x_m": -1780.8219178082181,
+            "coefficient": 0.10430606842221112
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.4123316956394916,
+          1.0814843197662876,
+          0.05541153589550172,
+          -1.7116841216702399
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -1780.8219178082181,
+        "mapped_station_index": 16,
+        "mapping_distance_m": 219.17808219178187
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 251,
+            "x_m": -176.1252446183953,
+            "coefficient": -0.28729649051451944
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 263,
+            "x_m": 293.5420743639934,
+            "coefficient": -0.5404843141902487
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 266,
+            "x_m": 410.95890410958964,
+            "coefficient": -0.49437200148532356
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 266,
+            "x_m": 410.95890410958964,
+            "coefficient": -0.21760552392786275
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.14716164043493343
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.5643135164725535,
+          1.183881859289354,
+          0.12865570977514745,
+          -0.9117123793478977
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -1232.876712328767,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 232.8767123287671
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 319,
+            "x_m": 2485.322896281801,
+            "coefficient": 1.5896134435091904
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 322,
+            "x_m": 2602.7397260273974,
+            "coefficient": 1.2833668904152713
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 335,
+            "x_m": 3111.545988258318,
+            "coefficient": 0.9125215943200207
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 338,
+            "x_m": 3228.9628180039144,
+            "coefficient": 0.6965632215746128
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 338,
+            "x_m": 3228.9628180039144,
+            "coefficient": 0.29591975823864336
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2350482739528659,
+          0.3896043989952389,
+          0.49200306374617603,
+          0.30874231003347447
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 408,
+            "x_m": 5968.688845401175,
+            "coefficient": -1.2411716963828707
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 400,
+            "x_m": 5655.577299412917,
+            "coefficient": -1.2608410349494072
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 354,
+            "x_m": 3855.1859099804315,
+            "coefficient": -1.3940421954043847
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -1.5597821251233084
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.665399976687208
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.229050802558886,
+          -0.1620702934317695,
+          -0.1448878357289546,
+          -0.02268369097665987
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 479,
+            "x_m": 8747.55381604697,
+            "coefficient": 0.3628065954173757
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 469,
+            "x_m": 8356.164383561645,
+            "coefficient": 0.4978908829400938
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 492,
+            "x_m": 9256.360078277889,
+            "coefficient": 0.21219733913984193
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 492,
+            "x_m": 9256.360078277889,
+            "coefficient": 0.4044989694628632
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 492,
+            "x_m": 9256.360078277889,
+            "coefficient": 0.18625459993543783
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.1188599708257527,
+          -0.9307294615106045,
+          1.2304230323229086,
+          -0.45662891525140603
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 9256.360078277889,
+        "mapped_station_index": 39,
+        "mapping_distance_m": 243.63992172211147
+      }
+    ]
+  },
+  {
+    "frequency_hz": 42.81332398719396,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 30,
+            "x_m": -8825.831702544032,
+            "coefficient": 0.5806131537532457
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 22,
+            "x_m": -9138.94324853229,
+            "coefficient": 0.861185385938464
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 26,
+            "x_m": -8982.38747553816,
+            "coefficient": 0.48652564558673017
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 30,
+            "x_m": -8825.831702544032,
+            "coefficient": 0.2130257170033537
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 32,
+            "x_m": -8747.553816046966,
+            "coefficient": 0.08098177099939925
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.395358507828046,
+          1.191488247138633,
+          0.8238079837065708,
+          -0.568746581107162
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -8747.553816046966,
+        "mapped_station_index": 3,
+        "mapping_distance_m": 247.55381604696595
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 95,
+            "x_m": -6281.800391389432,
+            "coefficient": 0.5993370117387009
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 109,
+            "x_m": -5733.85518590998,
+            "coefficient": 1.1151723458608624
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 116,
+            "x_m": -5459.882583170254,
+            "coefficient": 1.0436884908803878
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.5601295038141975
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.22220387076994627
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3338764730991923,
+          0.8978588490084476,
+          0.09557551491332235,
+          -0.8958273160499295
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -5264.187866927593,
+        "mapped_station_index": 9,
+        "mapping_distance_m": 235.81213307240705
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 153,
+            "x_m": -4011.741682974559,
+            "coefficient": -0.7251078481176599
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 195,
+            "x_m": -2367.906066536203,
+            "coefficient": -0.1896172929524839
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 192,
+            "x_m": -2485.3228962817993,
+            "coefficient": -0.24484548159179717
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 209,
+            "x_m": -1819.9608610567511,
+            "coefficient": -0.19229528751456212
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.2458332746514634
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          -0.35435679656311725,
+          0.34854816492544244,
+          -0.368781029699641,
+          1.935105045822072
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -4716.24266144814,
+        "mapped_station_index": 11,
+        "mapping_distance_m": 216.2426614481401
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 213,
+            "x_m": -1663.4050880626219,
+            "coefficient": 0.5493816078464535
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 226,
+            "x_m": -1154.598825831701,
+            "coefficient": 1.1406063228027141
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 230,
+            "x_m": -998.0430528375728,
+            "coefficient": 1.161404367000471
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 234,
+            "x_m": -841.4872798434426,
+            "coefficient": 0.5818854106753418
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 236,
+            "x_m": -763.2093933463784,
+            "coefficient": 0.2252876599677069
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3689667818121845,
+          0.9970633841686971,
+          -0.026069428611285,
+          -1.0539204173290215
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -763.2093933463784,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 236.79060665362158
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 274,
+            "x_m": 724.0704500978482,
+            "coefficient": -0.9729348753457154
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 259,
+            "x_m": 136.9863013698632,
+            "coefficient": -1.173041068901671
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 253,
+            "x_m": -97.84735812132931,
+            "coefficient": -1.1638116893302681
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -0.6893059959523821
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 249,
+            "x_m": -254.40313111545947,
+            "coefficient": -0.27864214498641343
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.306731080761775,
+          0.7556411718940341,
+          0.011395882195901109,
+          -0.26983837921425713
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -254.40313111545947,
+        "mapped_station_index": 19,
+        "mapping_distance_m": 245.59686888454053
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 356,
+            "x_m": 3933.4637964774956,
+            "coefficient": 1.3015860250266946
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 362,
+            "x_m": 4168.29745596869,
+            "coefficient": 1.323061313342057
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 375,
+            "x_m": 4677.103718199609,
+            "coefficient": 1.11307458619129
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.9752023003444622
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.42113649261152714
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2114136347110793,
+          0.19077683554060754,
+          0.2493296508775939,
+          -0.023609254414863588
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4755.381604696675,
+        "mapped_station_index": 30,
+        "mapping_distance_m": 244.6183953033251
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 415,
+            "x_m": 6242.6614481409015,
+            "coefficient": -0.2239882598749887
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 400,
+            "x_m": 5655.577299412917,
+            "coefficient": -0.8496703000513022
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 488,
+            "x_m": 9099.80430528376,
+            "coefficient": -0.9570971270096895
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -1.0087062654697332
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.4341564782989336
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2162191074580764,
+          -0.07576888071315777,
+          -0.17176220119530916,
+          -1.9234800200150692
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 486,
+            "x_m": 9021.526418786696,
+            "coefficient": -0.38966834038191467
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 491,
+            "x_m": 9217.221135029355,
+            "coefficient": -0.9861587070288141
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 488,
+            "x_m": 9099.80430528376,
+            "coefficient": -0.9570971270096895
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 490,
+            "x_m": 9178.082191780824,
+            "coefficient": -0.47732153987580084
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.4341564782989336
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.1367463304294111,
+          1.0037038963155074,
+          0.04315450676711153,
+          -1.33957312403958
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      }
+    ]
+  },
+  {
+    "frequency_hz": 83.378222347179,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 94,
+            "x_m": -6320.939334637964,
+            "coefficient": 1.6021712003459783
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 106,
+            "x_m": -5851.272015655577,
+            "coefficient": 1.1807298032083144
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 119,
+            "x_m": -5342.465753424657,
+            "coefficient": 0.9178322420947743
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.6073101310761522
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.2499827265104922
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2806050263247555,
+          0.5957970511345183,
+          0.36337646539703666,
+          0.44034945756861366
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 164,
+            "x_m": -3581.213307240704,
+            "coefficient": -1.0799492207933048
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 148,
+            "x_m": -4207.43639921722,
+            "coefficient": -1.2393071371273474
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.9211900659530883
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.7324784037304468
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.3092676516728706
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2439302835799395,
+          0.33071262931088075,
+          0.4279630160745529,
+          -0.198570296012815
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -1232.876712328767,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 232.8767123287671
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 270,
+            "x_m": 567.5146771037198,
+            "coefficient": 0.7750417764576102
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 260,
+            "x_m": 176.1252446183953,
+            "coefficient": 0.7132956581732335
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 244,
+            "x_m": -450.0978473581199,
+            "coefficient": 0.48546140200089505
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 274,
+            "x_m": 724.0704500978482,
+            "coefficient": 0.37883808228394467
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 275,
+            "x_m": 763.2093933463802,
+            "coefficient": 0.16059624542443307
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2381431989188172,
+          0.35777523116581206,
+          0.5551435973080544,
+          0.11977388500960712
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 336,
+            "x_m": 3150.6849315068503,
+            "coefficient": 0.8355206745243546
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 364,
+            "x_m": 4246.575342465754,
+            "coefficient": 0.8821508555680275
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 372,
+            "x_m": 4559.686888454013,
+            "coefficient": 1.1293932445539205
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 376,
+            "x_m": 4716.242661448143,
+            "coefficient": 0.7487344145458864
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.31001714929759744
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2721060438262914,
+          0.593021934427492,
+          -0.35645061144728307,
+          -0.07834986297612363
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 4755.381604696675,
+        "mapped_station_index": 30,
+        "mapping_distance_m": 244.6183953033251
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 406,
+            "x_m": 5890.410958904111,
+            "coefficient": -1.5553968781258887
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 399,
+            "x_m": 5616.4383561643845,
+            "coefficient": -1.6698662398788309
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 393,
+            "x_m": 5381.604696673192,
+            "coefficient": -1.5104058324247005
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 391,
+            "x_m": 5303.326810176126,
+            "coefficient": -0.9561441090961655
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.39246512595520266
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2846636128543893,
+          0.6596362595041061,
+          0.14479630335819665,
+          -0.10244979590857368
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 479,
+            "x_m": 8747.55381604697,
+            "coefficient": 0.568536661602818
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 492,
+            "x_m": 9256.360078277889,
+            "coefficient": 0.5943073763326553
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 441,
+            "x_m": 7260.273972602739,
+            "coefficient": 0.6018952837031678
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 441,
+            "x_m": 7260.273972602739,
+            "coefficient": 0.5578687998618156
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 441,
+            "x_m": 7260.273972602739,
+            "coefficient": 0.24095072833643966
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2111877054873885,
+          0.10958664470174331,
+          -0.01830322491624699,
+          -0.0639559042003433
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 7260.273972602739,
+        "mapped_station_index": 35,
+        "mapping_distance_m": 239.72602739726062
+      }
+    ]
+  },
+  {
+    "frequency_hz": 162.37767391887243,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 37,
+            "x_m": -8551.859099804306,
+            "coefficient": 1.2033671864845852
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 28,
+            "x_m": -8904.109589041096,
+            "coefficient": 1.129731872951132
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 22,
+            "x_m": -9138.94324853229,
+            "coefficient": 0.6743374629422594
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 20,
+            "x_m": -9217.221135029355,
+            "coefficient": 0.4395573948032779
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.18220147423233748
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2705169238977372,
+          0.617419192832907,
+          0.7444377543185221,
+          0.09109651437676596
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 95,
+            "x_m": -6281.800391389432,
+            "coefficient": 1.1890980048761994
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 112,
+            "x_m": -5616.438356164384,
+            "coefficient": 1.3617133304477647
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 118,
+            "x_m": -5381.604696673189,
+            "coefficient": 1.3808605782124244
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.9099628974798788
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.3761924119620976
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2743369734628665,
+          0.6016880342394068,
+          -0.02014464450753041,
+          -0.19555539119042406
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -5264.187866927593,
+        "mapped_station_index": 9,
+        "mapping_distance_m": 235.81213307240705
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 169,
+            "x_m": -3385.518590998043,
+            "coefficient": -1.604522519800594
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 149,
+            "x_m": -4168.297455968688,
+            "coefficient": -1.056738296753883
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 137,
+            "x_m": -4637.964774951076,
+            "coefficient": -1.1705078201119221
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 135,
+            "x_m": -4716.24266144814,
+            "coefficient": -0.865859441423166
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.3635487027773204
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2519841976169153,
+          0.4349298227003888,
+          -0.1475164382772566,
+          0.6025259034929699
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -4755.381604696673,
+        "mapped_station_index": 10,
+        "mapping_distance_m": 244.6183953033269
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 357,
+            "x_m": 3972.6027397260277,
+            "coefficient": 0.580524968853534
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 372,
+            "x_m": 4559.686888454013,
+            "coefficient": 0.7931774113093276
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 208,
+            "x_m": -1859.0998043052832,
+            "coefficient": 0.6061539584115894
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 210,
+            "x_m": -1780.8219178082181,
+            "coefficient": 0.45335719709730576
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 211,
+            "x_m": -1741.682974559686,
+            "coefficient": 0.19057965339763816
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.250254085120999,
+          0.4190360855542676,
+          0.3879593184091677,
+          -0.4502854721010022
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -1741.682974559686,
+        "mapped_station_index": 17,
+        "mapping_distance_m": 241.68297455968604
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 410,
+            "x_m": 6046.966731898239,
+            "coefficient": -0.1537864684021452
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 407,
+            "x_m": 5929.549902152643,
+            "coefficient": -0.6304839987654964
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 419,
+            "x_m": 6399.21722113503,
+            "coefficient": -0.5668254970831273
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.4632132644810432
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 224,
+            "x_m": -1232.876712328767,
+            "coefficient": -0.19586647038977842
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2418061171853991,
+          0.2912280887355913,
+          0.1535551010695808,
+          -2.0355311896092108
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -1232.876712328767,
+        "mapped_station_index": 18,
+        "mapping_distance_m": 232.8767123287671
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 465,
+            "x_m": 8199.608610567517,
+            "coefficient": 0.7356339005087362
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 470,
+            "x_m": 8395.303326810179,
+            "coefficient": 0.7347600983185528
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 439,
+            "x_m": 7181.996086105675,
+            "coefficient": 0.6495099553408137
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 440,
+            "x_m": 7221.135029354209,
+            "coefficient": 0.5302582878766314
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 377,
+            "x_m": 4755.381604696675,
+            "coefficient": 0.3938653033952206
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.42899293324812704,
+          0.29265637360853003,
+          0.17792164327349852,
+          0.0017146835962307894
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      }
+    ]
+  },
+  {
+    "frequency_hz": 316.22776601683796,
+    "maxima_lines": [
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 34,
+            "x_m": -8669.275929549902,
+            "coefficient": 0.11968899552171516
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 34,
+            "x_m": -8669.275929549902,
+            "coefficient": 0.1522667771883039
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 20,
+            "x_m": -9217.221135029355,
+            "coefficient": 0.1409502554719221
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.12006067862195412
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 19,
+            "x_m": -9256.360078277887,
+            "coefficient": 0.051599341816401245
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2183391593286534,
+          0.23142236510972197,
+          0.11141510435756811,
+          -0.3473106834310159
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -9256.360078277887,
+        "mapped_station_index": 1,
+        "mapping_distance_m": 243.6399217221133
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 104,
+            "x_m": -5929.549902152641,
+            "coefficient": 1.1521380155606533
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 113,
+            "x_m": -5577.299412915851,
+            "coefficient": 1.494588557599728
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 116,
+            "x_m": -5459.882583170254,
+            "coefficient": 1.3820811281807868
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 120,
+            "x_m": -5303.326810176125,
+            "coefficient": 0.7516729314969148
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 121,
+            "x_m": -5264.187866927593,
+            "coefficient": 0.2977093737272543
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.336200404633177,
+          0.8786653474552435,
+          0.11290607791533547,
+          -0.3754348335874128
+        ],
+        "static_candidate": true,
+        "candidate_x_m": -5264.187866927593,
+        "mapped_station_index": 9,
+        "mapping_distance_m": 235.81213307240705
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 164,
+            "x_m": -3581.213307240704,
+            "coefficient": -1.226549248784576
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -1.0663438551362785
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -0.7958594192101776
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -0.36964441717005797
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 134,
+            "x_m": -4755.381604696673,
+            "coefficient": -0.31799172202481096
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          0.21714891443173723,
+          1.1063754911653454,
+          0.42208720672488975,
+          0.20193243546658785
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 251,
+            "x_m": -176.1252446183953,
+            "coefficient": -0.6850909829364434
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -1.0663438551362785
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -0.7958594192101776
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 250,
+            "x_m": -215.2641878669274,
+            "coefficient": -0.36964441717005797
+          }
+        ],
+        "accepted": false,
+        "rejection_reason": "no_same_sign_maximum",
+        "alpha_pairs": null,
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 344,
+            "x_m": 3463.796477495109,
+            "coefficient": 0.6801721968968462
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 286,
+            "x_m": 1193.737769080235,
+            "coefficient": 0.4759641788767589
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 277,
+            "x_m": 841.4872798434444,
+            "coefficient": 0.40868078723309625
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 275,
+            "x_m": 763.2093933463802,
+            "coefficient": 0.26475344627224057
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 275,
+            "x_m": 763.2093933463802,
+            "coefficient": 0.10889169576318324
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.2817555275159587,
+          0.6263249576736427,
+          0.21987857876327302,
+          0.5150470346223587
+        ],
+        "static_candidate": false,
+        "candidate_x_m": null,
+        "mapped_station_index": null,
+        "mapping_distance_m": null
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 404,
+            "x_m": 5812.133072407047,
+            "coefficient": -0.2373583892269116
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 398,
+            "x_m": 5577.299412915852,
+            "coefficient": -1.230423722402769
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 395,
+            "x_m": 5459.882583170256,
+            "coefficient": -1.4124636097109158
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 391,
+            "x_m": 5303.326810176126,
+            "coefficient": -0.7938086543772918
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 390,
+            "x_m": 5264.187866927594,
+            "coefficient": -0.31778845146474444
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.320724593551268,
+          0.8313505025461333,
+          -0.19905847519844605,
+          -2.3740162770564037
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 5264.187866927594,
+        "mapped_station_index": 31,
+        "mapping_distance_m": 235.81213307240614
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 446,
+            "x_m": 7455.968688845402,
+            "coefficient": 0.06753570794028603
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 428,
+            "x_m": 6751.46771037182,
+            "coefficient": 0.8039420411298743
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 426,
+            "x_m": 6673.189823874756,
+            "coefficient": 0.853024762679069
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 427,
+            "x_m": 6712.32876712329,
+            "coefficient": 0.4187828074653891
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 428,
+            "x_m": 6751.46771037182,
+            "coefficient": 0.16135663472897815
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          1.3759493153072244,
+          1.0263854068390423,
+          -0.08549612608002045,
+          -3.5733690958766653
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 6751.46771037182,
+        "mapped_station_index": 34,
+        "mapping_distance_m": 248.53228962817957
+      },
+      {
+        "nodes": [
+          {
+            "scale_index": 4,
+            "sample_index": 490,
+            "x_m": 9178.082191780824,
+            "coefficient": 0.03374774242343615
+          },
+          {
+            "scale_index": 3,
+            "sample_index": 494,
+            "x_m": 9334.637964774953,
+            "coefficient": 0.2759091358755089
+          },
+          {
+            "scale_index": 2,
+            "sample_index": 500,
+            "x_m": 9569.471624266145,
+            "coefficient": 0.27883593226513215
+          },
+          {
+            "scale_index": 1,
+            "sample_index": 503,
+            "x_m": 9686.888454011743,
+            "coefficient": 0.15820165813490522
+          },
+          {
+            "scale_index": 0,
+            "sample_index": 428,
+            "x_m": 6751.46771037182,
+            "coefficient": 0.16135663472897815
+          }
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "alpha_pairs": [
+          -0.02848817938768576,
+          0.8176517654695548,
+          -0.015223258604019596,
+          -3.031330327347711
+        ],
+        "static_candidate": true,
+        "candidate_x_m": 6751.46771037182,
+        "mapped_station_index": 34,
+        "mapping_distance_m": 248.53228962817957
+      }
+    ]
+  }
+]

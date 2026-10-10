@@ -1,0 +1,153 @@
+{
+  "scenario_id": "four_low_200x5_v1",
+  "mode": "TM",
+  "source_forward_npz": "D:\\MT_StaticShift_Inversion\\results\\section_21_forward\\scenarios\\four_low_200x5_v1\\forward.npz",
+  "source_forward_sha256": "596c06c23bd0e33b653b1cd7676cf81517710aacc3a6eb0d43b741da9085a220",
+  "source_manifest": "D:\\MT_StaticShift_Inversion\\results\\section_21_forward\\scenarios\\four_low_200x5_v1\\manifest.json",
+  "detection_config": {
+    "scales": [
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "interpolation_points": 512,
+    "signal_transform": "log",
+    "interpolation_kind": "linear",
+    "wavelet_name": "gaussian_derivative",
+    "transform_type": "cwt",
+    "boundary_mode": "reflect",
+    "alpha_summary_method": "pairwise",
+    "candidate_rule": "any_pair_negative",
+    "min_line_length": 5,
+    "modulus_quantile": null,
+    "mapping_max_distance_m": null,
+    "alpha_threshold": 0.0
+  },
+  "body_centers_x_m": [
+    -5000.0,
+    -1500.0,
+    1500.0,
+    5000.0
+  ],
+  "nearest_station_x_m": [
+    -5000.0,
+    -1500.0,
+    1500.0,
+    5000.0
+  ],
+  "results": {
+    "without_shallow": {
+      "candidate_station_occurrences": [],
+      "target_frequency_counts": {
+        "-5000": 0,
+        "-1500": 0,
+        "1500": 0,
+        "5000": 0
+      },
+      "target_frequencies_hz": {
+        "-5000": [],
+        "-1500": [],
+        "1500": [],
+        "5000": []
+      },
+      "total_frequency_station_candidates": 0,
+      "diagnostic_dir": "D:\\MT_StaticShift_Inversion\\results\\section_22\\221_site_types\\scenarios\\four_low_200x5_v1\\TM\\without_shallow"
+    },
+    "with_shallow": {
+      "candidate_station_occurrences": [
+        {
+          "station_x_m": -5500.0,
+          "frequency_count": 9
+        },
+        {
+          "station_x_m": -5000.0,
+          "frequency_count": 7
+        },
+        {
+          "station_x_m": -4000.0,
+          "frequency_count": 2
+        },
+        {
+          "station_x_m": -1500.0,
+          "frequency_count": 5
+        },
+        {
+          "station_x_m": -1000.0,
+          "frequency_count": 6
+        },
+        {
+          "station_x_m": 1000.0,
+          "frequency_count": 6
+        },
+        {
+          "station_x_m": 1500.0,
+          "frequency_count": 7
+        },
+        {
+          "station_x_m": 2500.0,
+          "frequency_count": 1
+        },
+        {
+          "station_x_m": 5000.0,
+          "frequency_count": 7
+        },
+        {
+          "station_x_m": 5500.0,
+          "frequency_count": 10
+        },
+        {
+          "station_x_m": 9500.0,
+          "frequency_count": 1
+        }
+      ],
+      "target_frequency_counts": {
+        "-5000": 7,
+        "-1500": 5,
+        "1500": 7,
+        "5000": 7
+      },
+      "target_frequencies_hz": {
+        "-5000": [
+          5.796393953384973,
+          11.288378916846883,
+          21.983926488622892,
+          42.81332398719396,
+          83.378222347179,
+          162.37767391887243,
+          316.22776601683796
+        ],
+        "-1500": [
+          5.796393953384973,
+          42.81332398719396,
+          83.378222347179,
+          162.37767391887243,
+          316.22776601683796
+        ],
+        "1500": [
+          2.9763514416313193,
+          5.796393953384973,
+          21.983926488622892,
+          42.81332398719396,
+          83.378222347179,
+          162.37767391887243,
+          316.22776601683796
+        ],
+        "5000": [
+          2.9763514416313193,
+          5.796393953384973,
+          21.983926488622892,
+          42.81332398719396,
+          83.378222347179,
+          162.37767391887243,
+          316.22776601683796
+        ]
+      },
+      "total_frequency_station_candidates": 61,
+      "diagnostic_dir": "D:\\MT_StaticShift_Inversion\\results\\section_22\\221_site_types\\scenarios\\four_low_200x5_v1\\TM\\with_shallow"
+    }
+  },
+  "final_static_sites": null,
+  "final_classification_reason": "当前基础算法只输出逐频候选，不设跨频最终测点规则"
+}

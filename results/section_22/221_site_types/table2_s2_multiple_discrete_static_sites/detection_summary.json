@@ -1,0 +1,92 @@
+{
+  "experiment_id": "S2",
+  "source_scenario": "with_shallow",
+  "source_forward_npz": "D:\\MT_StaticShift_Inversion\\results\\section_21_forward\\structured\\section_21_forward.npz",
+  "source_forward_sha256": "404da7336324510d02a80ad52d7192da9eaf581363fba204d57aa99aaa13f4af",
+  "mode": "TM",
+  "station_count": 41,
+  "frequency_count": 20,
+  "known_static_x_m": [
+    -5000.0,
+    5000.0
+  ],
+  "detection_config": {
+    "scales": [
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "interpolation_points": 512,
+    "signal_transform": "log",
+    "interpolation_kind": "linear",
+    "wavelet_name": "gaussian_derivative",
+    "transform_type": "cwt",
+    "boundary_mode": "reflect",
+    "alpha_summary_method": "pairwise",
+    "candidate_rule": "any_pair_negative",
+    "min_line_length": 5,
+    "modulus_quantile": null,
+    "mapping_max_distance_m": null,
+    "alpha_threshold": 0.0
+  },
+  "result": {
+    "candidate_station_occurrences": [
+      {
+        "station_x_m": -5500.0,
+        "frequency_count": 9
+      },
+      {
+        "station_x_m": -5000.0,
+        "frequency_count": 8
+      },
+      {
+        "station_x_m": 5000.0,
+        "frequency_count": 12
+      },
+      {
+        "station_x_m": 5500.0,
+        "frequency_count": 12
+      },
+      {
+        "station_x_m": 9500.0,
+        "frequency_count": 1
+      }
+    ],
+    "target_frequency_counts": {
+      "-5000": 8,
+      "5000": 12
+    },
+    "target_frequencies_hz": {
+      "-5000": [
+        2.9763514416313193,
+        5.796393953384973,
+        11.288378916846883,
+        21.983926488622892,
+        42.81332398719396,
+        83.378222347179,
+        162.37767391887243,
+        316.22776601683796
+      ],
+      "5000": [
+        0.20691380811147903,
+        0.4029611320200404,
+        0.7847599703514615,
+        1.5283067326587687,
+        2.9763514416313193,
+        5.796393953384973,
+        11.288378916846883,
+        21.983926488622892,
+        42.81332398719396,
+        83.378222347179,
+        162.37767391887243,
+        316.22776601683796
+      ]
+    },
+    "total_frequency_station_candidates": 42,
+    "diagnostic_dir": "D:\\MT_StaticShift_Inversion\\results\\section_22\\221_site_types\\table2_s2_multiple_discrete_static_sites"
+  },
+  "final_static_sites": null,
+  "final_classification_reason": "基础方法没有定义 MT 跨频汇总规则；仅报告逐频候选"
+}
