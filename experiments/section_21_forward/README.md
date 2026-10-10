@@ -16,16 +16,16 @@
 仅改变浅部体时，可使用 `--reuse-unchanged-baseline`。程序会逐项核对已有结果中的频率、测点、网格节点和无浅部体模型，完全一致才复用 TE/TM 基线阻抗，并重新计算两组有浅部体响应；最后照常覆盖全部结果文件。
 
 ```powershell
-& 'D:\SoftwareInstallation\Anaconda\envs\mt-static-rebuild\python.exe' 'D:\MT_StaticShift_Inversion\experiments\section_21_forward\run_forward.py'
+python experiments/section_21_forward/run_forward.py --output-dir results/section_21_forward/reproductions/structured
 ```
 
 只重绘现有结果，不执行物理正演：
 
 ```powershell
-& 'D:\SoftwareInstallation\Anaconda\envs\mt-static-rebuild\python.exe' 'D:\MT_StaticShift_Inversion\experiments\section_21_forward\plot_forward.py'
+python experiments/section_21_forward/plot_forward.py --input results/section_21_forward/structured/section_21_forward.npz --output-dir results/section_21_forward/reproductions/plots
 ```
 
-新结构的结果写入 `results/section_21_forward/structured/`；此前版本的输出保留在其上级目录，不能与新结构的数据字段混用：
+仓库附带的已验证输入位于 `results/section_21_forward/structured/`；按上方命令重新正演时写入 `reproductions/structured/`，避免覆盖固定输入。此前版本的输出不能与新结构的数据字段混用：
 
 - `section_21_forward.npz`：网格节点、两套对数电导率模型、SimPEG 原始 `dpred`、复阻抗、视电阻率和相位。字段采用英文 `snake_case`；数组频率和测点均升序。每个频点的 `dpred` 先存全部测点的实部，再存全部测点的虚部。
 - `section_21_summary.json`：模型、网格、四个异常体的输入及实际尺寸、模式定义及有无浅部体的定量差异，字段采用英文。
@@ -46,15 +46,15 @@
 
 ```powershell
 $env:PYTHONIOENCODING = 'utf-8'
-& 'D:\SoftwareInstallation\Anaconda\envs\mt-static-rebuild\python.exe' 'D:\MT_StaticShift_Inversion\experiments\section_21_forward\run_scenario.py' --scenario 'D:\MT_StaticShift_Inversion\configs\section_21\scenarios\four_low_200x5_v1.json'
+python experiments/section_21_forward/run_scenario.py --scenario configs/section_21/scenarios/four_low_200x5_v1.json --output-root results/section_21_forward/reproductions
 ```
 
-场景完成后，`results/section_21_forward/scenarios/<scenario_id>/` 下有自包含的 `forward.npz`、配置哈希及模型几何记录 `manifest.json`、`figures/`。每个场景的图包括模型图、TE/TM 视电阻率与相位拟断面，以及配置所列测点的 TE/TM 曲线；四体场景还绘制 0 km 对照测点。无浅部体基线只在网格、深部模型、测点和频率数组完全相同时复用，缓存放在 `cache/forward/baselines/`。现有 `structured/` 结果不被新场景覆盖。
+场景完成后，`results/section_21_forward/reproductions/<scenario_id>/` 下有自包含的 `forward.npz`、配置哈希及模型几何记录 `manifest.json`、`figures/`。每个场景的图包括模型图、TE/TM 视电阻率与相位拟断面，以及配置所列测点的 TE/TM 曲线；四体场景还绘制 0 km 对照测点。无浅部体基线只在网格、深部模型、测点和频率数组完全相同时复用，缓存放在 `cache/forward/baselines/`。现有 `structured/` 结果不被新场景覆盖。
 
-只重绘场景图，不重新正演：
+只重绘仓库附带的已验证场景图，不重新正演：
 
 ```powershell
-& 'D:\SoftwareInstallation\Anaconda\envs\mt-static-rebuild\python.exe' 'D:\MT_StaticShift_Inversion\experiments\section_21_forward\plot_scenario.py' --scenario 'D:\MT_StaticShift_Inversion\configs\section_21\scenarios\four_low_200x5_v1.json'
+python experiments/section_21_forward/plot_scenario.py --scenario configs/section_21/scenarios/four_low_200x5_v1.json
 ```
 
 图件用于数值核对，论文定稿图仍应单独放入 `paper/figures/section_21/`。
