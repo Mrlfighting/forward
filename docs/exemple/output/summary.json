@@ -1,0 +1,107 @@
+{
+  "config_sha256": "4ef79c8af79f919eec470294f240d2bf0ab65b65fcee59efa57ddb5e76a060a5",
+  "mode": "TM",
+  "model": {
+    "background_resistivity_ohm_m": 100.0,
+    "anomaly": {
+      "x_min_m": -1500.0,
+      "x_max_m": 1500.0,
+      "z_min_m": -2500.0,
+      "z_max_m": -1000.0,
+      "resistivity_ohm_m": 10.0
+    }
+  },
+  "forward_mesh": {
+    "shape": [
+      60,
+      139
+    ],
+    "cells": 8340,
+    "anomaly_actual": {
+      "x_min_m": -1500.0,
+      "x_max_m": 1500.0,
+      "z_min_m": -2500.0,
+      "z_max_m": -1000.0,
+      "cell_count": 720
+    }
+  },
+  "inversion_mesh": {
+    "shape": [
+      36,
+      79
+    ],
+    "cells": 2844,
+    "active_cells": 1820,
+    "anomaly_actual": {
+      "x_min_m": -1500.0,
+      "x_max_m": 1500.0,
+      "z_min_m": -2500.0,
+      "z_max_m": -1000.0,
+      "cell_count": 180
+    }
+  },
+  "stations_m": [
+    -4000.0,
+    -3000.0,
+    -2000.0,
+    -1000.0,
+    0.0,
+    1000.0,
+    2000.0,
+    3000.0,
+    4000.0
+  ],
+  "completed_steps": [
+    "model",
+    "forward",
+    "inversion"
+  ],
+  "frequencies_hz": [
+    0.001,
+    0.00194869888068805,
+    0.003797427327594855,
+    0.007400042382778306,
+    0.014420454308364208,
+    0.028101123169722488,
+    0.05476062726691524,
+    0.10671197306081312,
+    0.20794950245961988,
+    0.40523096268269815,
+    0.789673123399914,
+    1.5388351316788487,
+    2.9987262986660204,
+    5.843614581700287,
+    11.387445194531706,
+    22.19070170448047,
+    43.24299557320345,
+    84.26757707109978,
+    164.2121331167463,
+    319.9999999999999
+  ],
+  "data_count": 360,
+  "receiver_convention_check": {
+    "rho_relative_difference_max": 5.443760997536629e-10,
+    "phase_difference_max_deg": 0.0
+  },
+  "baseline_rho_median_ohm_m": 100.44376512996149,
+  "inversion": {
+    "errors": {
+      "rho_relative": 0.05,
+      "phase_deg": 2.0,
+      "injected_noise": "none"
+    },
+    "max_iter": 24,
+    "cg_maxiter": 20,
+    "initial_beta": 4.47e-07,
+    "initial_metrics": {
+      "roi_log10_rmse": 0.4192627457812105,
+      "anomaly_geometric_mean_resistivity_ohm_m": 99.99999999999996
+    },
+    "recovered_metrics": {
+      "roi_log10_rmse": 0.2046760222861304,
+      "anomaly_geometric_mean_resistivity_ohm_m": 16.30495458287915
+    },
+    "phi_d": 2.4516347551519,
+    "elapsed_seconds": 120.2608409000004
+  }
+}

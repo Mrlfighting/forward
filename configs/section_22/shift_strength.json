@@ -1,0 +1,8 @@
+{
+  "source_s0_summary": "results/section_22/221_site_types/table2_s0_no_static_negative/detection_summary.json",
+  "detection_config": "configs/section_22/site_types.json",
+  "target_station_x_m": [-5000.0, 5000.0],
+  "static_factors": [1.0, 0.5, 0.7, 0.8, 1.2, 1.5, 2.0, 3.0],
+  "mode": "TM",
+  "noise": "none"
+}

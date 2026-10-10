@@ -1,0 +1,24 @@
+{
+  "detection": {
+    "scales": [2, 4, 8, 16, 32],
+    "interpolation_points": 512,
+    "signal_transform": "log",
+    "interpolation_kind": "linear",
+    "wavelet_name": "gaussian_derivative",
+    "transform_type": "cwt",
+    "boundary_mode": "reflect",
+    "alpha_summary_method": "pairwise",
+    "candidate_rule": "any_pair_negative",
+    "min_line_length": 5,
+    "modulus_quantile": null,
+    "mapping_max_distance_m": null,
+    "alpha_threshold": 0.0
+  },
+  "cases": [
+    "table2_s0_no_static_negative",
+    "table2_s1_single_static_site",
+    "table2_s2_multiple_discrete_static_sites",
+    "table2_s3_continuous_static_segment"
+  ],
+  "old_result_root": "data/reference/section_22/221_site_types"
+}
