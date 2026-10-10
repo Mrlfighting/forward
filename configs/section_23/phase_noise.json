@@ -1,0 +1,28 @@
+{
+  "source_forward": "results/section_21_forward/scenarios/two_low_200x5_v1/forward.npz",
+  "source_sha256": "404da7336324510d02a80ad52d7192da9eaf581363fba204d57aa99aaa13f4af",
+  "mode": "TM",
+  "station_x_m": [-10000.0, -8000.0, -5000.0, -2000.0, 2000.0, 5000.0, 8000.0, 10000.0],
+  "static_station_x_m": [-5000.0, 5000.0],
+  "interference_count": 6,
+  "frequency_seed": 20260729,
+  "noise_seed_offset": 1009,
+  "phase_noise_sigma_deg": 5.0,
+  "phase_error_floor_deg": 0.57,
+  "rho_relative_error": 0.02,
+  "shape_weight": 0.7,
+  "inversion": {
+    "max_iter": 5,
+    "cg_maxiter": 15,
+    "initial_beta": 4.47e-7,
+    "background_resistivity": 100.0,
+    "cooling_factor": 2.0,
+    "cooling_rate": 2,
+    "active_depth_m": 12000.0,
+    "active_x_limit_m": 16000.0,
+    "depth_weight_start_m": 8000.0,
+    "depth_weight_max": 25.0,
+    "lateral_weight_start_m": 10000.0,
+    "lateral_weight_max": 50.0
+  }
+}

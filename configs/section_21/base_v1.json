@@ -1,0 +1,33 @@
+{
+  "base_id": "section21_base_v1",
+  "mesh_id": "section21_mesh_v1",
+  "background_resistivity_ohm_m": 100.0,
+  "deep_bodies": [
+    {
+      "body_id": "left_deep_conductor",
+      "x_min_m": -8000.0,
+      "x_max_m": -2000.0,
+      "z_min_m": -8000.0,
+      "z_max_m": -2000.0,
+      "resistivity_ohm_m": 10.0
+    },
+    {
+      "body_id": "right_deep_resistor",
+      "x_min_m": 2000.0,
+      "x_max_m": 8000.0,
+      "z_min_m": -8000.0,
+      "z_max_m": -2000.0,
+      "resistivity_ohm_m": 1000.0
+    }
+  ],
+  "stations": {
+    "start_m": -10000.0,
+    "stop_m": 10000.0,
+    "step_m": 500.0
+  },
+  "frequencies": {
+    "log10_min_hz": -3.0,
+    "log10_max_hz": 2.5,
+    "count": 20
+  }
+}
