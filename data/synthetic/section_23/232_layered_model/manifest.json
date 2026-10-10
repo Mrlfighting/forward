@@ -1,0 +1,38 @@
+{
+  "config_sha256": "3a70dbf852bf93557739d909cf7ee7c0ed61110934a422104ec09ace05cbde6b",
+  "input_sha256": "26a26ee46f82a6a6e81d36388b1e71bfe56b918808cb3c0a70ea5549c7f2e505",
+  "forward_mesh_shape": [
+    156,
+    105
+  ],
+  "inversion_mesh_shape": [
+    80,
+    64
+  ],
+  "forward_active_cells": 16380,
+  "inversion_active_cells": 3100,
+  "surface_body_cell_counts": [
+    1,
+    1
+  ],
+  "static_shift_ratios": {
+    "-5000": {
+      "geometric_mean": 6.355942381365344,
+      "minimum": 6.294795864733541,
+      "maximum": 6.371361489345848,
+      "log_standard_deviation": 0.0031894802158102037
+    },
+    "5000": {
+      "geometric_mean": 0.0887373471137915,
+      "minimum": 0.08845694875108487,
+      "maximum": 0.0900204450098682,
+      "log_standard_deviation": 0.004696368437992233
+    }
+  },
+  "rho_relative_std": 0.10198039027185571,
+  "phase_std_deg": 0.8061017305526641,
+  "one_d_data_count": 288,
+  "one_d_parameter_count": 50,
+  "one_d_phi_d": 223.2634369427851,
+  "one_d_elapsed_seconds": 93.22333810000055
+}

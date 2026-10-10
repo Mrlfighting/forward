@@ -1,0 +1,33 @@
+{
+  "legacy_directory": "D:\\staticjiaozheng\\论文整理\\05_moderate_layered_static_data_selection\\moderate_layered_original_reproduced",
+  "clean_observation": {
+    "max_abs_difference": 1.967128852697897e-06,
+    "rmse": 1.476130994166921e-07
+  },
+  "static_observation": {
+    "max_abs_difference": 7.928707418614067e-06,
+    "rmse": 4.5412190876286935e-07
+  },
+  "one_d_active_start": {
+    "max_abs_difference": 0.003412573813801778,
+    "rmse": 0.001642068609920536
+  },
+  "methods": {
+    "clean_full": {
+      "max_abs_difference": 0.006594760074006167,
+      "rmse": 0.0010658832167235882
+    },
+    "static_full": {
+      "max_abs_difference": 7.721136260772923,
+      "rmse": 0.40344907076588854
+    },
+    "phase_preserving": {
+      "max_abs_difference": 0.00669988638000607,
+      "rmse": 0.0009756573221111826
+    },
+    "phase_plus_shape": {
+      "max_abs_difference": 0.00579719279741342,
+      "rmse": 0.001003319204347044
+    }
+  }
+}

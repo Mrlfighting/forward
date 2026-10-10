@@ -1,0 +1,252 @@
+{
+  "status": "needs_review",
+  "input_sha256": "26a26ee46f82a6a6e81d36388b1e71bfe56b918808cb3c0a70ea5549c7f2e505",
+  "config_sha256": "3a70dbf852bf93557739d909cf7ee7c0ed61110934a422104ec09ace05cbde6b",
+  "station_x_m": [
+    -10000.0,
+    -8000.0,
+    -5000.0,
+    -2000.0,
+    2000.0,
+    5000.0,
+    8000.0,
+    10000.0
+  ],
+  "static_station_x_m": [
+    -5000.0,
+    5000.0
+  ],
+  "frequency_count": 24,
+  "layers": [
+    {
+      "top_depth_m": 0.0,
+      "bottom_depth_m": 1000.0,
+      "resistivity_ohm_m": 50.0
+    },
+    {
+      "top_depth_m": 1000.0,
+      "bottom_depth_m": 8000.0,
+      "resistivity_ohm_m": 500.0
+    },
+    {
+      "top_depth_m": 8000.0,
+      "bottom_depth_m": 12000.0,
+      "resistivity_ohm_m": 30.0
+    }
+  ],
+  "targets": [
+    {
+      "center_x_m": -5000.0,
+      "center_z_m": -5000.0,
+      "radius_x_m": 2200.0,
+      "radius_z_m": 2000.0,
+      "resistivity_ohm_m": 10.0
+    },
+    {
+      "center_x_m": 5000.0,
+      "center_z_m": -5000.0,
+      "radius_x_m": 2200.0,
+      "radius_z_m": 2000.0,
+      "resistivity_ohm_m": 10.0
+    }
+  ],
+  "surface_bodies": [
+    {
+      "center_x_m": -5000.0,
+      "center_z_m": -2.0,
+      "width_m": 4.0,
+      "height_m": 4.0,
+      "resistivity_ohm_m": 1000.0
+    },
+    {
+      "center_x_m": 5000.0,
+      "center_z_m": -2.0,
+      "width_m": 4.0,
+      "height_m": 4.0,
+      "resistivity_ohm_m": 10.0
+    }
+  ],
+  "surface_body_cell_counts": [
+    1,
+    1
+  ],
+  "static_shift_ratios": {
+    "-5000": {
+      "geometric_mean": 6.355942381365344,
+      "minimum": 6.294795864733541,
+      "maximum": 6.371361489345848,
+      "log_standard_deviation": 0.0031894802158102037
+    },
+    "5000": {
+      "geometric_mean": 0.0887373471137915,
+      "minimum": 0.08845694875108487,
+      "maximum": 0.0900204450098682,
+      "log_standard_deviation": 0.004696368437992233
+    }
+  },
+  "noise": {
+    "relative_rho_noise": 0.1,
+    "rho_error_floor": 0.02,
+    "phase_error_floor_deg": 0.57,
+    "random_seed": 42,
+    "static_phase_policy": "clean_phase_with_shared_noise"
+  },
+  "rho_relative_std": 0.10198039027185571,
+  "phase_std_deg": 0.8061017305526641,
+  "shape_weight": 1.0,
+  "shape_amplitude_invariance_max_abs": 1.4210854715202004e-14,
+  "data_counts": {
+    "full": 384,
+    "phase_preserving": 336,
+    "shape": 46,
+    "combined": 382
+  },
+  "one_d_start": {
+    "source_normal_station_x_m": [
+      -10000.0,
+      -8000.0,
+      -2000.0,
+      2000.0,
+      8000.0,
+      10000.0
+    ],
+    "n_data": 288,
+    "n_parameters": 50,
+    "phi_d": 223.2634369427851
+  },
+  "inversion_mesh_shape": [
+    80,
+    64
+  ],
+  "active_cell_count": 3100,
+  "inversion_settings": {
+    "background_resistivity": 100.0,
+    "max_iter": 5,
+    "cg_maxiter": 15,
+    "initial_beta": 4.47e-07,
+    "cooling_factor": 2.0,
+    "cooling_rate": 2,
+    "active_depth_m": 12000.0,
+    "active_x_limit_m": 16000.0,
+    "depth_weight_start_m": 8000.0,
+    "depth_weight_max": 25.0,
+    "lateral_weight_start_m": 10000.0,
+    "lateral_weight_max": 50.0
+  },
+  "results": {
+    "clean_full": {
+      "roi_log10_rmse": 0.5051221361593099,
+      "layered_background_log10_rmse": 0.3539438082946592,
+      "targets_log10_rmse": 1.2928160267607252,
+      "targets_geometric_mean_rho": 153.9137096875769,
+      "left_target_geometric_mean_rho": 103.65464746206301,
+      "right_target_geometric_mean_rho": 228.54189956568874,
+      "left_target_log10_rmse": 1.1052431865544017,
+      "right_target_log10_rmse": 1.4564285278288966,
+      "layer_1_geometric_mean_rho": 55.82980402534469,
+      "layer_1_log10_rmse": 0.09549536779913372,
+      "layer_2_geometric_mean_rho": 340.7054991032948,
+      "layer_2_log10_rmse": 0.6641704126018781,
+      "layer_3_geometric_mean_rho": 16.056233468437018,
+      "layer_3_log10_rmse": 0.4728653723590502,
+      "phi_d": 481.35422041853985,
+      "elapsed_seconds": 93.640876999998,
+      "data_misfit": {
+        "n_data": 384,
+        "sum_squared_standardized": 481.35422041853985,
+        "rms_standardized": 1.1196100283908148
+      }
+    },
+    "static_full": {
+      "roi_log10_rmse": 0.6469413678642333,
+      "layered_background_log10_rmse": 0.5653671160596331,
+      "targets_log10_rmse": 1.223494777412481,
+      "targets_geometric_mean_rho": 101.1269773611269,
+      "left_target_geometric_mean_rho": 65.29290182920306,
+      "right_target_geometric_mean_rho": 156.62752402932517,
+      "left_target_log10_rmse": 1.2197741398000657,
+      "right_target_log10_rmse": 1.2272041348472724,
+      "layer_1_geometric_mean_rho": 59.13443277481924,
+      "layer_1_log10_rmse": 0.20437531948197746,
+      "layer_2_geometric_mean_rho": 336.6814005193759,
+      "layer_2_log10_rmse": 0.8076534859529939,
+      "layer_3_geometric_mean_rho": 16.732008717990425,
+      "layer_3_log10_rmse": 0.7432751803971779,
+      "phi_d": 715.5528039693033,
+      "elapsed_seconds": 89.03036650000286,
+      "data_misfit": {
+        "n_data": 384,
+        "sum_squared_standardized": 715.5528039693033,
+        "rms_standardized": 1.3650709726372205
+      }
+    },
+    "phase_preserving": {
+      "roi_log10_rmse": 0.48696142863424574,
+      "layered_background_log10_rmse": 0.2931438135286876,
+      "targets_log10_rmse": 1.3732847933305903,
+      "targets_geometric_mean_rho": 218.02661362826706,
+      "left_target_geometric_mean_rho": 152.9718580729639,
+      "right_target_geometric_mean_rho": 310.74738091718956,
+      "left_target_log10_rmse": 1.203071746178496,
+      "right_target_log10_rmse": 1.5246116294758836,
+      "layer_1_geometric_mean_rho": 55.67645980577269,
+      "layer_1_log10_rmse": 0.0916119047545705,
+      "layer_2_geometric_mean_rho": 339.2363693752034,
+      "layer_2_log10_rmse": 0.6679039215253043,
+      "layer_3_geometric_mean_rho": 22.051573177239067,
+      "layer_3_log10_rmse": 0.281097618906314,
+      "phi_d": 511.89597509916234,
+      "elapsed_seconds": 79.83699969999725,
+      "data_misfit": {
+        "n_data": 336,
+        "sum_squared_standardized": 511.89597509916234,
+        "rms_standardized": 1.2343013918368415
+      }
+    },
+    "phase_plus_shape": {
+      "roi_log10_rmse": 0.4994830213610102,
+      "layered_background_log10_rmse": 0.3418544854791731,
+      "targets_log10_rmse": 1.3021749959296147,
+      "targets_geometric_mean_rho": 161.4324158351372,
+      "left_target_geometric_mean_rho": 109.8273281649576,
+      "right_target_geometric_mean_rho": 237.28543084674328,
+      "left_target_log10_rmse": 1.1228213104251463,
+      "right_target_log10_rmse": 1.4596546663179415,
+      "layer_1_geometric_mean_rho": 55.83657193223646,
+      "layer_1_log10_rmse": 0.09539756819990156,
+      "layer_2_geometric_mean_rho": 344.1541914303583,
+      "layer_2_log10_rmse": 0.6604047675317976,
+      "layer_3_geometric_mean_rho": 16.86112903486581,
+      "layer_3_log10_rmse": 0.4483287184638062,
+      "phi_d": 488.68071537488134,
+      "elapsed_seconds": 198.20826820000002,
+      "phase_preserving_misfit": {
+        "n_data": 336,
+        "sum_squared_standardized": 451.84574356679343,
+        "rms_standardized": 1.1596460661385848
+      },
+      "shape_misfit": {
+        "n_data": 46,
+        "sum_squared_standardized": 36.834971808087914,
+        "rms_standardized": 0.8948520864911493
+      }
+    }
+  },
+  "initial_model_metrics": {
+    "roi_log10_rmse": 0.4955474115776381,
+    "layered_background_log10_rmse": 0.24889511518050517,
+    "targets_log10_rmse": 1.4992941043120143,
+    "targets_geometric_mean_rho": 309.11464101915135,
+    "left_target_geometric_mean_rho": 309.11464101915135,
+    "right_target_geometric_mean_rho": 309.11464101915135,
+    "left_target_log10_rmse": 1.4992941043120143,
+    "right_target_log10_rmse": 1.4992941043120143,
+    "layer_1_geometric_mean_rho": 51.844129479413226,
+    "layer_1_log10_rmse": 0.10190462004437853,
+    "layer_2_geometric_mean_rho": 300.9656147788179,
+    "layer_2_log10_rmse": 0.68570641696499,
+    "layer_3_geometric_mean_rho": 40.04889508051533,
+    "layer_3_log10_rmse": 0.2192870495934253
+  },
+  "clean_reference_better_than_initial": false
+}
