@@ -251,9 +251,8 @@ def main() -> None:
     print(json.dumps(report, ensure_ascii=False, indent=2), flush=True)
     if arguments.setup_only:
         return
-    if OUTPUT_ROOT.exists() and any(OUTPUT_ROOT.iterdir()):
-        raise FileExistsError("验证结果目录已有内容，拒绝覆盖")
-    OUTPUT_ROOT.mkdir(parents=True)
+    # 四静态点结果使用独立子目录；本入口仅覆盖根目录下自己的同名文件。
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     save_json(OUTPUT_ROOT / "setup.json", report)
     np.savez_compressed(
         OUTPUT_ROOT / "input.npz",
