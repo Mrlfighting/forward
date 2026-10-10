@@ -1,0 +1,51 @@
+{
+  "status": "completed_needs_interpretation",
+  "setup_sha256": "4e4c741c7bbef3f79b4075e235ef8cc8f25f7bb319842fad598c49ecc9e37491",
+  "methods": {
+    "full": {
+      "n_data": 2190,
+      "phi_d": 4411.169612779022,
+      "phi_d_per_datum": 2.0142326998990967,
+      "wrms": 1.4192366609903706,
+      "iterations": 20,
+      "elapsed_seconds": 748.7695056000011,
+      "common_data_fit": {
+        "all_site_phase_wrms": 0.9035288289475529,
+        "ordinary_site_rho_wrms": 1.5960699350805454,
+        "candidate_site_rho_diagnostic_wrms": 2.2449768490752113,
+        "candidate_rho_is_fitted": true
+      }
+    },
+    "phase": {
+      "n_data": 1898,
+      "phi_d": 3501.9680651981275,
+      "phi_d_per_datum": 1.8450832798725645,
+      "wrms": 1.3583384261194131,
+      "iterations": 20,
+      "elapsed_seconds": 729.7595815999957,
+      "common_data_fit": {
+        "all_site_phase_wrms": 1.0291652485774516,
+        "ordinary_site_rho_wrms": 1.7078548118910715,
+        "candidate_site_rho_diagnostic_wrms": 6.384552868335871,
+        "candidate_rho_is_fitted": false
+      }
+    },
+    "shape": {
+      "n_data": 2186,
+      "phi_d": 4162.436016764141,
+      "phi_d_per_datum": 1.9041335849790213,
+      "wrms": 1.3799034694423453,
+      "iterations": 20,
+      "elapsed_seconds": 938.0016184999986,
+      "shape_residual_rms": 0.9667361456359764,
+      "shape_residual_max_abs": 3.436507221825895,
+      "common_data_fit": {
+        "all_site_phase_wrms": 0.976767351580304,
+        "ordinary_site_rho_wrms": 1.8834554624802533,
+        "candidate_site_rho_diagnostic_wrms": 22.584126984601802,
+        "candidate_rho_is_fitted": false
+      }
+    }
+  },
+  "comparison_note": "四点掩码不同于旧 L4 五点结果；不可直接比较旧图或单独按 WRMS 排序"
+}

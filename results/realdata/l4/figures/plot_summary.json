@@ -1,0 +1,21 @@
+{
+  "display_only_smoothing": "线性插值＋高斯 sigma=(1.2,1.4) 像素",
+  "浅部20千米": {
+    "depth_km": 20.0,
+    "color_limits_log10_ohm_m": [
+      0.0,
+      4.0
+    ]
+  },
+  "全深度300千米": {
+    "depth_km": 300.0,
+    "color_limits_log10_ohm_m": [
+      0.0,
+      4.0
+    ]
+  },
+  "fits": {
+    "station_count": 15,
+    "page_count": 4
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "raw_directory": "data/realdata/l4/raw",
+  "minimum_frequency_hz": 0.00114,
+  "station_spacing_m": 500.0,
+  "component": "xy",
+  "detection": {
+    "scales": [2, 4, 8, 16, 32],
+    "interpolation_points": 512,
+    "signal_transform": "log",
+    "interpolation_kind": "linear",
+    "wavelet_name": "gaussian_derivative",
+    "transform_type": "cwt",
+    "boundary_mode": "reflect",
+    "alpha_summary_method": "pairwise",
+    "candidate_rule": "any_pair_negative",
+    "min_line_length": 5,
+    "modulus_quantile": null,
+    "mapping_max_distance_m": null,
+    "alpha_threshold": 0.0
+  },
+  "expected_vote_counts": [22, 2, 11, 14, 29, 5, 1, 1, 9, 4, 0, 0, 0, 30, 43],
+  "selected_static_station_ids": ["S01", "S05", "S14", "S15"],
+  "selected_static_station_provenance": "用户根据新识别器逐频出现次数人工确认，不是自动跨频分类",
+  "inversion": {
+    "rho_relative_error": 0.10,
+    "phase_error_deg": 5.0,
+    "shape_weight": 0.5,
+    "starting_rho": 1000.0,
+    "max_iter": 20,
+    "cg_maxiter": 40,
+    "beta0_ratio": 1.0,
+    "cooling_factor": 2.0,
+    "cooling_rate": 2,
+    "target_chifact": 1.0,
+    "length_scale_x": 2500.0,
+    "length_scale_z": 3000.0,
+    "active_depth": 300000.0,
+    "active_side_padding": 50000.0,
+    "seed": 42
+  }
+}

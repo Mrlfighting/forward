@@ -1,0 +1,63 @@
+{
+  "config_sha256": "3c561886aea38593212416609ffd4dd20a95b0d8ebb13c161037a9489591a81c",
+  "raw_sha256": {
+    "4050.csv": "0571bd3747527afe2027dceed01e8c20574239043cf87e23073c705c156a1b88",
+    "4060.csv": "f7eb3ea8c7870f2ce92efa6e6706c08c908b4632e238ce96fbc03621795d683f",
+    "4070.csv": "f69e3700bb72033bc54b9caaead3a60ff3919be1c1ebcb8557da0f8c5c58ac97",
+    "4080.csv": "0e4a2d8ada648760bae344f781f45fe6050fa4dd37ce3adb3cc966c905f89f8e",
+    "4090.csv": "e9e8d3a0238518cfdc8ce07d66284e1dd0780775c18ef810c2c0acffd52cb231",
+    "4100.csv": "8e8a01460d946547a23230704d0b874c85c808f373055002953ddb1854a6e884",
+    "4110.csv": "cfc80953d92ac72f566acd225d0cf597dd969c108d40025af167e3c8efc03be4",
+    "4120.csv": "3fb7bc2ffe37a6047c85924fda763cb9682aec8dd5b02af83399ddabeea51366",
+    "4130.csv": "5a5acf99fef8756edc0653c5fb4a042920a93b13ea08d4f4ca92b6b10af43f22",
+    "4140.csv": "0aebec14c091555b2cfa3d650148521ff50e4af1a9d7c875133bd67f156dc681",
+    "4150.csv": "7dfbeea0afdf077fbdbbb5470707bafcb789890684fde0ecb7d21054b8ef8652",
+    "4160.csv": "a604605d4a5f53c0325e348392a18325c24bf0f17d7db3115514438c716d1f13",
+    "4170.csv": "9933784ac70cc67369ea13c60589527c9447f1453ab179f0ba0ee8e435447ca5",
+    "4180.csv": "af44b2e90410a180a2207ce0457633b9d372739fd6277b681651d7e63e806d43",
+    "4190.csv": "310d6d23a9a7de02dc883007ffba63192c719dafaa7e2dfff7ff98874a54421a"
+  },
+  "station_count": 15,
+  "frequency_count": 73,
+  "frequency_range_hz": [
+    0.00114,
+    320.0001
+  ],
+  "component": "xy",
+  "data_order": "frequency, component[rho_a, phase], station",
+  "frequency_interpolation": false,
+  "legacy_prepared_checks": {
+    "station_codes": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "stations_m": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "frequencies_hz": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "rho_xy_ohm_m": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "phase_raw_deg": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "phase_normal_deg": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "phase_simpeg_deg": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "full_observed": {
+      "equal": true,
+      "max_abs_difference": 0.0
+    }
+  }
+}
