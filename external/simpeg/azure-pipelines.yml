@@ -1,0 +1,63 @@
+# =============================================
+# Configure Azure Pipelines for automated tasks
+# =============================================
+
+# Define triggers for runs in CI
+# ------------------------------
+trigger:
+  branches:
+    include:
+      - "main"
+    exclude:
+      - "*no-ci*"
+  tags:
+    include:
+      - "*"
+
+pr:
+  branches:
+    include:
+      - "*"
+    exclude:
+      - "*no-ci*"
+
+schedules:
+  - cron: "0 8 * * *" # trigger cron job every day at 08:00 AM GMT
+    displayName: "Scheduled nightly job"
+    branches:
+      include: ["main"]
+    always: false # don't run if no changes have been applied since last sucessful run
+    batch: false # dont' run if last pipeline is still in-progress
+
+# Run stages
+# ----------
+stages:
+  - stage: StyleChecks
+    displayName: "Style Checks"
+    jobs:
+      - template: .ci/azure/style.yml
+
+  - stage: Testing
+    dependsOn: StyleChecks
+    jobs:
+      - template: .ci/azure/test.yml
+
+  - stage: Codecov
+    dependsOn: Testing
+    condition: succeededOrFailed()
+    jobs:
+      - template: .ci/azure/codecov.yml
+
+  - stage: Docs
+    dependsOn:
+      - StyleChecks
+      - Testing
+    jobs:
+      - template: .ci/azure/docs.yml
+
+  - stage: PyPI
+    dependsOn:
+      - StyleChecks
+      - Testing
+    jobs:
+      - template: .ci/azure/pypi.yml

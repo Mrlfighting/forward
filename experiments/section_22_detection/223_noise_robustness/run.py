@@ -65,8 +65,7 @@ def load_experiment() -> tuple[dict, DetectionConfig, dict, np.ndarray, np.ndarr
     for record, name, scenario in ((s0, "S0", "without_shallow"), (s2, "S2", "with_shallow")):
         if record["experiment_id"] != name or record["source_scenario"] != scenario or record["mode"] != "TM":
             raise ValueError(f"{name} 摘要的正演情形或模式不一致")
-        if Path(record["source_forward_npz"]).resolve() != FORWARD_PATH.resolve():
-            raise ValueError(f"{name} 摘要的正演路径不一致")
+        # 历史摘要记录原机器绝对路径，跨机器以文件内容哈希确认同一份正演输入。
         if record["source_forward_sha256"] != source_hash or record["detection_config"] != asdict(config):
             raise ValueError(f"{name} 来源哈希或 2.2.1 参数与当前文件不一致")
     if s0["known_static_x_m"] != [] or s2["known_static_x_m"] != [-5000.0, 5000.0]:

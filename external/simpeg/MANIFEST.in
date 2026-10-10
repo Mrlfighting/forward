@@ -1,0 +1,9 @@
+prune .github
+prune .ci
+prune docs
+prune examples
+prune tutorials
+prune tests
+exclude .coveragerc .flake8 .gitignore MANIFEST.in .pre-commit-config.yaml
+exclude azure-pipelines.yml .mailmap
+exclude .git_archival.txt .gitattributes Makefile environment.yml

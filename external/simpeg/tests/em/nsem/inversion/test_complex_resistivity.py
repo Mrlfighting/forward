@@ -1,0 +1,324 @@
+import unittest
+
+# import simpeg.dask as simpeg
+from simpeg import maps, tests
+import discretize
+from discretize.utils import mkvc
+from simpeg.electromagnetics import natural_source as ns
+import numpy as np
+from discretize.utils import volume_average
+import pytest
+
+TOLr = 5e-2
+TOL = 1e-4
+FLR = 1e-20
+
+
+class ComplexResistivityTest(unittest.TestCase):
+    def setUp(self):
+        csx = 2000.0
+        csz = 2000.0
+
+        mesh = discretize.TensorMesh(
+            [
+                [(csx, 1, -3), (csx, 6), (csx, 1, 3)],
+                [(csx, 1, -3), (csx, 6), (csx, 1, 3)],
+                [(csz, 1, -3), (csz, 6), (csz, 1, 3)],
+            ],
+            x0="CCC",
+        )
+
+        active = mesh.gridCC[:, 2] < 50
+
+        # create background conductivity model
+        sigma_back = 1e-2
+        sigma_background = np.ones(mesh.nC) * sigma_back
+        sigma_background[~active] = 1e-8
+
+        # create a model to test with
+        block = [csx * np.r_[-3, 3], csx * np.r_[-3, 3], csz * np.r_[-6, -1]]
+
+        block_sigma = 3e-1
+
+        block_inds = (
+            (mesh.gridCC[:, 0] >= block[0].min())
+            & (mesh.gridCC[:, 0] <= block[0].max())
+            & (mesh.gridCC[:, 1] >= block[1].min())
+            & (mesh.gridCC[:, 1] <= block[1].max())
+            & (mesh.gridCC[:, 2] >= block[2].min())
+            & (mesh.gridCC[:, 2] <= block[2].max())
+        )
+
+        m = sigma_background.copy()
+        m[block_inds] = block_sigma
+        m = np.log(m[active])
+
+        self.mesh = mesh
+        self.sigma_background = sigma_background
+        self.model = m
+        self.active = active
+
+    def create_simulation(self, rx_type="apparent_resistivity", rx_orientation="xy"):
+        rx_x, rx_y = np.meshgrid(
+            np.linspace(-5000, 5000, 10), np.linspace(-5000, 5000, 10)
+        )
+        rx_loc = np.hstack(
+            (mkvc(rx_x, 2), mkvc(rx_y, 2), np.zeros((np.prod(rx_x.shape), 1)))
+        )
+        rx_loc[:, 2] = -50
+
+        # Make a receiver list
+        rxList = [
+            ns.Rx.Impedance(rx_loc, orientation=rx_orientation, component=rx_type)
+        ]
+
+        # Source list
+        freqs = [10, 50, 200]
+        srcList = [ns.Src.PlanewaveXYPrimary(rxList, freq) for freq in freqs]
+
+        # Survey MT
+        survey_ns = ns.Survey(srcList)
+
+        # Set the mapping
+        actMap = maps.InjectActiveCells(
+            mesh=self.mesh, active_cells=self.active, value_inactive=np.log(1e-8)
+        )
+        mapping = maps.ExpMap(self.mesh) * actMap
+        # print(survey_ns.source_list)
+        # # Setup the problem object
+        sim = ns.simulation.Simulation3DPrimarySecondary(
+            self.mesh,
+            survey=survey_ns,
+            sigmaPrimary=self.sigma_background,
+            sigmaMap=mapping,
+        )
+        return sim
+
+    def create_simulation_rx(self, rx_type="apparent_resistivity", rx_orientation="xy"):
+        rx_x, rx_y = np.meshgrid(
+            np.linspace(-5000, 5000, 10), np.linspace(-5000, 5000, 10)
+        )
+        rx_loc = np.hstack(
+            (mkvc(rx_x, 2), mkvc(rx_y, 2), np.zeros((np.prod(rx_x.shape), 1)))
+        )
+        rx_loc[:, 2] = -50
+
+        # Make a receiver list
+        rxList = [
+            ns.Rx.Impedance(
+                locations_e=rx_loc,
+                locations_h=rx_loc,
+                orientation=rx_orientation,
+                component=rx_type,
+            )
+        ]
+
+        # Source list
+        freqs = [10, 50, 200]
+        srcList = [ns.Src.PlanewaveXYPrimary(rxList, freq) for freq in freqs]
+
+        # Survey MT
+        survey_ns = ns.Survey(srcList)
+
+        # Set the mapping
+        actMap = maps.InjectActiveCells(
+            mesh=self.mesh, active_cells=self.active, value_inactive=np.log(1e-8)
+        )
+        mapping = maps.ExpMap(self.mesh) * actMap
+        # print(survey_ns.source_list)
+        # # Setup the problem object
+        sim = ns.simulation.Simulation3DPrimarySecondary(
+            self.mesh,
+            survey=survey_ns,
+            sigmaPrimary=self.sigma_background,
+            sigmaMap=mapping,
+        )
+        return sim
+
+    def create_simulation_1dprimary_assign_mesh1d(
+        self, rx_type="apparent_resistivity", rx_orientation="xy"
+    ):
+        rx_x, rx_y = np.meshgrid(
+            np.linspace(-5000, 5000, 10), np.linspace(-5000, 5000, 10)
+        )
+        rx_loc = np.hstack(
+            (mkvc(rx_x, 2), mkvc(rx_y, 2), np.zeros((np.prod(rx_x.shape), 1)))
+        )
+        rx_loc[:, 2] = -50
+
+        # Make a receiver list
+        rxList = [
+            ns.Rx.Impedance(rx_loc, orientation=rx_orientation, component=rx_type)
+        ]
+
+        # give background a value
+        x0 = self.mesh.x0
+        hs = [
+            [self.mesh.nodes_x[-1] - x0[0]],
+            [self.mesh.nodes_y[-1] - x0[1]],
+            self.mesh.h[-1],
+        ]
+        mesh1d = discretize.TensorMesh(hs, x0=x0)
+        sigma1d = np.exp(
+            volume_average(self.mesh, mesh1d, np.log(self.sigma_background))
+        )
+
+        # Source list
+        freqs = [10, 50, 200]
+        srcList = [
+            ns.Src.PlanewaveXYPrimary(rxList, freq, sigma_primary=sigma1d)
+            for freq in freqs
+        ]
+
+        # Survey MT
+        survey_ns = ns.Survey(srcList)
+
+        # Set the mapping
+        actMap = maps.InjectActiveCells(
+            mesh=self.mesh, active_cells=self.active, value_inactive=np.log(1e-8)
+        )
+        mapping = maps.ExpMap(self.mesh) * actMap
+        # print(survey_ns.source_list)
+        # # Setup the problem object
+        sim = ns.simulation.Simulation3DPrimarySecondary(
+            self.mesh,
+            survey=survey_ns,
+            sigmaMap=mapping,
+        )
+        return sim
+
+    def create_simulation_1dprimary_assign(
+        self, rx_type="apparent_resistivity", rx_orientation="xy"
+    ):
+        rx_x, rx_y = np.meshgrid(
+            np.linspace(-5000, 5000, 10), np.linspace(-5000, 5000, 10)
+        )
+        rx_loc = np.hstack(
+            (mkvc(rx_x, 2), mkvc(rx_y, 2), np.zeros((np.prod(rx_x.shape), 1)))
+        )
+        rx_loc[:, 2] = -50
+
+        # Make a receiver list
+        rxList = [
+            ns.Rx.Impedance(rx_loc, orientation=rx_orientation, component=rx_type)
+        ]
+
+        # Source list
+        freqs = [10, 50, 200]
+        srcList = [
+            ns.Src.PlanewaveXYPrimary(rxList, freq, sigma_primary=self.sigma_background)
+            for freq in freqs
+        ]
+
+        # Survey MT
+        survey_ns = ns.Survey(srcList)
+
+        # Set the mapping
+        actMap = maps.InjectActiveCells(
+            mesh=self.mesh, active_cells=self.active, value_inactive=np.log(1e-8)
+        )
+        mapping = maps.ExpMap(self.mesh) * actMap
+        # print(survey_ns.source_list)
+        # # Setup the problem object
+        sim = ns.simulation.Simulation3DPrimarySecondary(
+            self.mesh,
+            survey=survey_ns,
+            sigmaMap=mapping,
+        )
+        return sim
+
+    def check_deriv(self, sim):
+        def fun(x):
+            d = sim.dpred(x)
+            return d, lambda y: sim.Jvec(x, y)
+
+        passed = tests.check_derivative(
+            fun, self.model, num=3, plotIt=False, random_seed=1983
+        )
+        self.assertTrue(passed)
+
+    def check_adjoint(self, sim):
+        rng = np.random.default_rng(seed=42)
+        w = rng.uniform(size=len(self.model))
+        v = rng.uniform(size=sim.survey.nD)
+        f = sim.fields(self.model)
+
+        vJw = v.ravel().dot(sim.Jvec(self.model, w, f))
+        wJtv = w.ravel().dot(sim.Jtvec(self.model, v, f))
+        tol = np.max([TOL * (10 ** int(np.log10(np.abs(vJw)))), FLR])
+        passed = np.abs(vJw - wJtv) < tol
+
+        print("\nvJw   wJtv  vJw - wJtv     tol    abs(vJw - wJtv) < tol")
+        print(f"{vJw:1.2e}, {wJtv:1.2e}, {vJw - wJtv:1.2e} < {tol:1.2e}?, {passed}")
+
+        self.assertTrue(passed)
+
+    def check_deriv_adjoint(self, component, orientation):
+        print(f"\n\n============= Testing {component} {orientation} =============\n")
+        sim = self.create_simulation(component, orientation)
+        sim2 = self.create_simulation_1dprimary_assign(component, orientation)
+        sim3 = self.create_simulation_1dprimary_assign_mesh1d(component, orientation)
+        sim4 = self.create_simulation_rx(component, orientation)
+        self.check_deriv(sim)
+        self.check_adjoint(sim)
+        self.check_deriv(sim2)
+        self.check_adjoint(sim2)
+        self.check_deriv(sim3)
+        self.check_adjoint(sim3)
+        self.check_deriv(sim4)
+        self.check_adjoint(sim4)
+        print("... done")
+
+    def test_apparent_resistivity_xx(self):
+        self.check_deriv_adjoint("apparent_resistivity", "xx")
+
+    def test_apparent_resistivity_xy(self):
+        self.check_deriv_adjoint("apparent_resistivity", "xy")
+
+    def test_apparent_resistivity_yx(self):
+        self.check_deriv_adjoint("apparent_resistivity", "yx")
+
+    def test_apparent_resistivity_yy(self):
+        self.check_deriv_adjoint("apparent_resistivity", "yy")
+
+    @pytest.mark.xfail()
+    def test_phase_xx(self):
+        self.check_deriv_adjoint("phase", "xx")
+
+    def test_phase_xy(self):
+        self.check_deriv_adjoint("phase", "xy")
+
+    def test_phase_yx(self):
+        self.check_deriv_adjoint("phase", "yx")
+
+    @pytest.mark.xfail()
+    def test_phase_yy(self):
+        self.check_deriv_adjoint("phase", "yy")
+
+    def test_real_xx(self):
+        self.check_deriv_adjoint("real", "xx")
+
+    def test_real_xy(self):
+        self.check_deriv_adjoint("real", "xy")
+
+    def test_real_yx(self):
+        self.check_deriv_adjoint("real", "yx")
+
+    def test_real_yy(self):
+        self.check_deriv_adjoint("real", "yy")
+
+    def test_imag_xx(self):
+        self.check_deriv_adjoint("imag", "xx")
+
+    def test_imag_xy(self):
+        self.check_deriv_adjoint("imag", "xy")
+
+    def test_imag_yx(self):
+        self.check_deriv_adjoint("imag", "yx")
+
+    def test_imag_yy(self):
+        self.check_deriv_adjoint("imag", "yy")
+
+
+if __name__ == "__main__":
+    unittest.main()

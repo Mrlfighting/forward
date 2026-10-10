@@ -51,8 +51,7 @@ def load_inputs() -> tuple[dict, DetectionConfig, np.ndarray, np.ndarray, np.nda
         raise ValueError("给定摘要不是当前无浅部体 S0 结果")
     if s0["mode"] != "TM" or s0["known_static_x_m"]:
         raise ValueError("S0 模式或阴性真值与本实验不一致")
-    if Path(s0["source_forward_npz"]).resolve() != FORWARD_PATH.resolve():
-        raise ValueError("S0 摘要所用正演路径与当前固定基线不一致")
+    # 历史摘要记录原机器绝对路径，跨机器以文件内容哈希确认同一份正演输入。
     source_hash = file_sha256(FORWARD_PATH)
     if source_hash != s0["source_forward_sha256"]:
         raise ValueError("S0 摘要记录的正演 SHA256 与当前文件不一致")

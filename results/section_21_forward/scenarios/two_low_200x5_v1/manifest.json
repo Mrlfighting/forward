@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "scenario_id": "two_low_200x5_v1",
+  "base_id": "section21_base_v1",
+  "run_mode": "validated_import",
+  "base_config_path": "D:\\MT_StaticShift_Inversion\\configs\\section_21\\base_v1.json",
+  "base_config_sha256": "ea901e5d8f2a5defd905c3d6b61952aeafbef31378f42d4a70e3cffc86cf7875",
+  "scenario_config_path": "D:\\MT_StaticShift_Inversion\\configs\\section_21\\scenarios\\two_low_200x5_v1.json",
+  "scenario_config_sha256": "f48b7c961efc5a11eb2746225dc484b5d8b32768a9d60f06a25a2758523f71cf",
+  "import_source": "D:\\MT_StaticShift_Inversion\\results\\section_21_forward\\structured\\section_21_forward.npz",
+  "import_source_sha256": "404da7336324510d02a80ad52d7192da9eaf581363fba204d57aa99aaa13f4af",
+  "baseline_key": "fe0be665b484e531c69209c6bb05675b84a2c1d3beb165da6cf171ff2a7f8ea5",
+  "baseline_source": "results\\section_21_forward\\structured\\section_21_forward.npz",
+  "station_count": 41,
+  "frequency_count": 20,
+  "mesh_shape_cells": [
+    228,
+    124
+  ],
+  "body_geometry": {
+    "deep_bodies": [
+      {
+        "body_id": "left_deep_conductor",
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            -8000.0,
+            -8000.0
+          ],
+          [
+            -2000.0,
+            -2000.0
+          ]
+        ],
+        "effective_bounds_m": [
+          [
+            -8000.0000000000055,
+            -8080.0
+          ],
+          [
+            -2000.0000000000055,
+            -1980.0
+          ]
+        ],
+        "specified_size_m": [
+          6000.0,
+          6000.0
+        ],
+        "effective_size_m": [
+          6000.0,
+          6100.0
+        ],
+        "cell_count": 2340
+      },
+      {
+        "body_id": "right_deep_resistor",
+        "resistivity_ohm_m": 1000.0,
+        "specified_bounds_m": [
+          [
+            2000.0,
+            -8000.0
+          ],
+          [
+            8000.0,
+            -2000.0
+          ]
+        ],
+        "effective_bounds_m": [
+          [
+            1999.9999999999945,
+            -8080.0
+          ],
+          [
+            7999.9999999999945,
+            -1980.0
+          ]
+        ],
+        "specified_size_m": [
+          6000.0,
+          6000.0
+        ],
+        "effective_size_m": [
+          6000.0,
+          6100.0
+        ],
+        "cell_count": 2340
+      }
+    ],
+    "shallow_bodies": [
+      {
+        "body_id": "left_shallow_conductor",
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            -5100.0,
+            -5.0
+          ],
+          [
+            -4900.0,
+            0.0
+          ]
+        ],
+        "effective_bounds_m": [
+          [
+            -5100.0000000000055,
+            -5.0
+          ],
+          [
+            -4900.0000000000055,
+            0.0
+          ]
+        ],
+        "specified_size_m": [
+          200.0,
+          5.0
+        ],
+        "effective_size_m": [
+          200.0,
+          5.0
+        ],
+        "cell_count": 2
+      },
+      {
+        "body_id": "right_shallow_conductor",
+        "resistivity_ohm_m": 10.0,
+        "specified_bounds_m": [
+          [
+            4900.0,
+            -5.0
+          ],
+          [
+            5100.0,
+            0.0
+          ]
+        ],
+        "effective_bounds_m": [
+          [
+            4899.9999999999945,
+            -5.0
+          ],
+          [
+            5099.9999999999945,
+            0.0
+          ]
+        ],
+        "specified_size_m": [
+          200.0,
+          5.0
+        ],
+        "effective_size_m": [
+          200.0,
+          5.0
+        ],
+        "cell_count": 2
+      }
+    ],
+    "different_cell_count": 4
+  },
+  "response_differences": {
+    "TE": {
+      "median_absolute_log10_rho_ratio_all": 5.800263324440408e-08,
+      "median_absolute_phase_difference_all_deg": 2.6039070348815585e-06,
+      "at_shallow_bodies": {
+        "left_shallow_conductor": {
+          "center_x_m": -5000.0,
+          "nearest_station_x_m": -5000.0,
+          "geometric_mean_rho_ratio": 0.9490213555152679,
+          "std_log10_rho_ratio": 0.03644869182374452,
+          "median_absolute_phase_difference_deg": 0.29971977841756114
+        },
+        "right_shallow_conductor": {
+          "center_x_m": 5000.0,
+          "nearest_station_x_m": 5000.0,
+          "geometric_mean_rho_ratio": 0.9460831118906492,
+          "std_log10_rho_ratio": 0.035802489027654545,
+          "median_absolute_phase_difference_deg": 0.48543318481824826
+        }
+      }
+    },
+    "TM": {
+      "median_absolute_log10_rho_ratio_all": 0.00019350028387172082,
+      "median_absolute_phase_difference_all_deg": 0.0012813059235980973,
+      "at_shallow_bodies": {
+        "left_shallow_conductor": {
+          "center_x_m": -5000.0,
+          "nearest_station_x_m": -5000.0,
+          "geometric_mean_rho_ratio": 0.5472480231716201,
+          "std_log10_rho_ratio": 0.010109913342748867,
+          "median_absolute_phase_difference_deg": 0.10700161666910901
+        },
+        "right_shallow_conductor": {
+          "center_x_m": 5000.0,
+          "nearest_station_x_m": 5000.0,
+          "geometric_mean_rho_ratio": 0.5479779273369783,
+          "std_log10_rho_ratio": 0.009829373401033601,
+          "median_absolute_phase_difference_deg": 0.1393196021145684
+        }
+      }
+    }
+  },
+  "figures": [
+    "figures\\模型与测点位置.png",
+    "figures\\TE_视电阻率与相位拟断面.png",
+    "figures\\TE_负5000米测点曲线.png",
+    "figures\\TE_正5000米测点曲线.png",
+    "figures\\TM_视电阻率与相位拟断面.png",
+    "figures\\TM_负5000米测点曲线.png",
+    "figures\\TM_正5000米测点曲线.png"
+  ],
+  "data_conventions": {
+    "te": "Zyx=Ey/Hx; Simulation2DMagneticField",
+    "tm": "Zxy=Ex/Hy; Simulation2DElectricField",
+    "dpred_order": "ascending frequency; all stations real, then all stations imaginary",
+    "apparent_resistivity": "|Z|^2/(mu_0*2*pi*f)",
+    "phase": "arg(-Z) modulo 180 degrees",
+    "noise": "none",
+    "injected_static_shift": "none; only shallow conductivity cells differ"
+  }
+}
