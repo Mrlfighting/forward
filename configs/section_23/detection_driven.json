@@ -1,0 +1,28 @@
+{
+  "detection_config": "configs/section_22/site_types.json",
+  "minimum_frequency_fraction": 0.2,
+  "station_policy": "same_as_inversion",
+  "cases": {
+    "231_two_sites": {
+      "input": "results/section_23/231_phase_noise/input.npz",
+      "input_sha256": "8c8b39eb3a25a0d18fc6899c04384e703c271c37b6c70479c6462c1903e5efb5",
+      "original_config": "configs/section_23/phase_noise.json",
+      "oracle_result_directory": "results/section_23/231_phase_noise",
+      "initial_model": "uniform"
+    },
+    "231_four_sites": {
+      "input": "results/section_23/231_phase_noise/four_static_rectangles_v1/input.npz",
+      "input_sha256": "e870368bd92e092c845073beb342c7486264ee0cf5b396bd3712de79086e7647",
+      "original_config": "configs/section_23/phase_noise_four_static_rectangles.json",
+      "oracle_result_directory": "results/section_23/231_phase_noise/four_static_rectangles_v1",
+      "initial_model": "uniform"
+    },
+    "232_layered": {
+      "input": "data/synthetic/section_23/232_layered_model/inputs.npz",
+      "input_sha256": "26a26ee46f82a6a6e81d36388b1e71bfe56b918808cb3c0a70ea5549c7f2e505",
+      "original_config": "configs/section_23/layered_model.json",
+      "oracle_result_directory": "results/section_23/232_layered_model",
+      "initial_model": "recalculate_one_d_from_detected_normal_sites"
+    }
+  }
+}

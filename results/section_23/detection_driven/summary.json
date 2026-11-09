@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "case_id": "231_two_sites",
+      "status": "no_detected_sites_inversion_not_applicable",
+      "oracle_result_status": "validated",
+      "frequency_count": 20,
+      "minimum_votes": 4,
+      "truth_x_m": "[-5000.0, 5000.0]",
+      "detected_x_m": "[]",
+      "TP": 0,
+      "FP": 0,
+      "FN": 2,
+      "precision": null,
+      "recall": 0.0,
+      "F1": 0.0,
+      "oracle_phase_roi_log10_rmse": 0.21412340453472709,
+      "detected_phase_roi_log10_rmse": null,
+      "oracle_shape_roi_log10_rmse": 0.21711285731188754,
+      "detected_shape_roi_log10_rmse": null
+    },
+    {
+      "case_id": "231_four_sites",
+      "status": "completed_with_detected_mask",
+      "oracle_result_status": "validated",
+      "frequency_count": 24,
+      "minimum_votes": 5,
+      "truth_x_m": "[-8000.0, -5000.0, 5000.0, 8000.0]",
+      "detected_x_m": "[-10000.0, 8000.0, 10000.0]",
+      "TP": 1,
+      "FP": 2,
+      "FN": 3,
+      "precision": 0.3333333333333333,
+      "recall": 0.25,
+      "F1": 0.2857142857142857,
+      "oracle_phase_roi_log10_rmse": 0.21134955359177454,
+      "detected_phase_roi_log10_rmse": 0.3635876252548111,
+      "oracle_shape_roi_log10_rmse": 0.19309819474241288,
+      "detected_shape_roi_log10_rmse": 0.34481961597072686
+    },
+    {
+      "case_id": "232_layered",
+      "status": "no_detected_sites_inversion_not_applicable",
+      "oracle_result_status": "needs_review",
+      "frequency_count": 24,
+      "minimum_votes": 5,
+      "truth_x_m": "[-5000.0, 5000.0]",
+      "detected_x_m": "[]",
+      "TP": 0,
+      "FP": 0,
+      "FN": 2,
+      "precision": null,
+      "recall": 0.0,
+      "F1": 0.0,
+      "oracle_phase_roi_log10_rmse": 0.48696142863424574,
+      "detected_phase_roi_log10_rmse": null,
+      "oracle_shape_roi_log10_rmse": 0.4994830213610102,
+      "detected_shape_roi_log10_rmse": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "no_detected_sites_inversion_not_applicable",
+  "case_id": "231_two_sites",
+  "source_input": "results\\section_23\\231_phase_noise\\input.npz",
+  "source_input_sha256": "8c8b39eb3a25a0d18fc6899c04384e703c271c37b6c70479c6462c1903e5efb5",
+  "original_config_sha256": "6dbf2adf63c69d331d8537c6e6ddced9a457f7ee125d770669cb004c201c65f1",
+  "detection_config_sha256": "3886b7422d091a676f15c0687581d9bd787e8df90d65942457905b7902715c6c",
+  "station_policy": "same_as_inversion",
+  "minimum_frequency_fraction": 0.2,
+  "minimum_votes": 4,
+  "frequency_count": 20,
+  "station_x_m": [
+    -10000.0,
+    -8000.0,
+    -5000.0,
+    -2000.0,
+    2000.0,
+    5000.0,
+    8000.0,
+    10000.0
+  ],
+  "vote_counts": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    1
+  ],
+  "detected_indices": [],
+  "detected_x_m": [],
+  "truth_indices_evaluation_only": [
+    2,
+    5
+  ],
+  "truth_x_m_evaluation_only": [
+    -5000.0,
+    5000.0
+  ],
+  "classification_metrics": {
+    "unit": "station",
+    "station_count": 8,
+    "TP": 0,
+    "FP": 0,
+    "FN": 2,
+    "precision": null,
+    "recall": 0.0,
+    "F1": 0.0
+  },
+  "full_data_reference": "results\\section_23\\231_phase_noise\\static_full.npz",
+  "full_data_reference_sha256": "92f3ffe45db525afb0bf877ca6bbec56294583e662f23549249237e7a55e81fb",
+  "phase_error_policy": "沿用原实验已经保存的逐项标准差",
+  "inversions": {},
+  "reason": "按固定20%规则无候选；相位保留会退化为全数据，shape 无可定义的候选点形态，禁止用真值回填"
+}

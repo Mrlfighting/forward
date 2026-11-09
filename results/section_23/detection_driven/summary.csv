@@ -1,0 +1,4 @@
+﻿case_id,status,oracle_result_status,frequency_count,minimum_votes,truth_x_m,detected_x_m,TP,FP,FN,precision,recall,F1,oracle_phase_roi_log10_rmse,detected_phase_roi_log10_rmse,oracle_shape_roi_log10_rmse,detected_shape_roi_log10_rmse
+231_two_sites,no_detected_sites_inversion_not_applicable,validated,20,4,"[-5000.0, 5000.0]",[],0,0,2,,0.0,0.0,0.21412340453472709,,0.21711285731188754,
+231_four_sites,completed_with_detected_mask,validated,24,5,"[-8000.0, -5000.0, 5000.0, 8000.0]","[-10000.0, 8000.0, 10000.0]",1,2,3,0.3333333333333333,0.25,0.2857142857142857,0.21134955359177454,0.3635876252548111,0.19309819474241288,0.34481961597072686
+232_layered,no_detected_sites_inversion_not_applicable,needs_review,24,5,"[-5000.0, 5000.0]",[],0,0,2,,0.0,0.0,0.48696142863424574,,0.4994830213610102,
